@@ -7,13 +7,31 @@ slug: []
 categories: []
 tags: []
 Description: ''
-Tags: []
+Tags: ['benefício fiscal','novo riolog','controle sintético','emprego']
 Categories: []
 DisableComments: no
+output:
+  blogdown::html_page:
+    toc: true
+    fig_width: 7
+    
+   
+   
 
 ---
 
 
+<div id="TOC">
+<ul>
+<li><a href="#métodos">Métodos</a></li>
+<li><a href="#arrecadação">Arrecadação</a></li>
+<li><a href="#emprego">Emprego</a></li>
+<li><a href="#indústria">Indústria</a></li>
+<li><a href="#atividade-econômica">Atividade Econômica</a></li>
+<li><a href="#conclusão">Conclusão</a></li>
+<li><a href="#códigos-em-r-e-fonte-dos-dados-utilizados.">Códigos (em R) e fonte dos dados utilizados.</a></li>
+</ul>
+</div>
 
 <p>Diversos estados brasileiros adotaram a guerra fiscal como forma de atrair mais empresas. A guerra fiscal, de forma simplificada, seria uma redução de impostos visando atrair empresas. Embora a redução da carga tributária possa levar a uma redução da arrecadação, alguns argumentam que, ao atrair mais empresas, o estado arrecadaria mais pela maior quantidade de empresas. Contudo, a guerra fiscal entre os estados existam há mais de uma década e os estudos são escassos nessa área.</p>
 <p>Em 2020 houve um debate sobre o projeto de Lei 2772/20 ( conforme <a href="http://www.ioerj.com.br/portal/modules/conteudoonline/mostra_edicao.php?session=VW10VmVGSnFRWGxSVlZWMFRrUktSbEpwTURCTmExazBURlJuZUUxcVZYUk5WRVY1VDBSa1FrNVZXa1pOUkVrMQ==">DOERJ 10/08/2020</a>, <a href="http://www.ioerj.com.br/portal/modules/conteudoonline/mostra_edicao.php?session=VG5wRk1VMVVXVE5PUkZsMFVrUmplRTU1TURCT1JWSkdURlZGTWsxVlNYUk9SVVUxVDFSVk1FNTZSVE5OVkVwQw==">DOERJ 18/08/2020</a> e <a href="http://www.ioerj.com.br/portal/modules/conteudoonline/mostra_edicao.php?session=VFdwT1IwNXFXVEpPTUVWMFVsUkNSazU1TURCT2FrMHlURlJuTlU5RVVYUlNhMWt6VW1wc1EwNVVTVE5PVkU1RFRWUlZOVTlVU1hwT2VrRTFUbmM5UFE9PQ==">DOERJ 03/09/2020</a>) que após aprovado se tronou a Lei 9025/20. Tal lei versa sobre benefício fiscal para o setor atacadista do Rio de Janeiro e foi inspirada na Lei 10.568/16 do Espirito Santo (ES).</p>
@@ -198,8 +216,8 @@ DisableComments: no
 <p>O presente caso parece ser mais um exemplo de “rent seeking”, situação na qual um grupo exerce pressão para obter maior fatia na riqueza existente na sociedade, sem que a ação gere aumento de riqueza. Conforme artigo de <a href="https://hbr.org/2016/05/lobbyists-are-behind-the-rise-in-corporate-profits">James Bessen</a> as grandes empresas obtem boa parte de seus lucros através de lobby político para obter vantagens legislativas. Segundo <a href="https://www.mises.org.br/Article.aspx?id=2809">Leandro Narloch</a>, para o “rent seeking” funcionar o discurso é fundamental. Neste ponto é inserida uma justificativa que faça o interesse privado parecer interesse público. Quando o assunto é benefício fiscal os argumentos mais utilizados são que vai atrair mais empresas, gerar mais empregos (esse é o mais usado), atrair investimentos, entre outros.</p>
 <p>O outro ponto é que a Lei capixaba traz alguns benefícios para setores industriais específicos. Apesar disso, o ES sofre uma forte desindustrialização. A versão fluminense não comtempla nenhum setor industrial. Isto leva a crer que o impacto poderá ser maior na indústria fluminense gerando maior desemprego, pois o desemprego gerado em outros setores parece superar os empregos gerado no setor atacadista.</p>
 </div>
-<div id="abaixo-os-códigos-utilizados-em-r-e-a-fonte-dos-dados-utilizados." class="section level2">
-<h2>Abaixo, os códigos utilizados (em R) e a fonte dos dados utilizados.</h2>
+<div id="códigos-em-r-e-fonte-dos-dados-utilizados." class="section level2">
+<h2>Códigos (em R) e fonte dos dados utilizados.</h2>
 <pre class="r"><code>knitr::opts_chunk$set(echo = F,message = FALSE, warning = F)
 library(tidyverse)
 library(gsynth)

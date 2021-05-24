@@ -6,10 +6,12 @@ slug: []
 categories: []
 tags: []
 Description: ''
-Tags: []
+Tags: ['benefício fiscal','mprj','lava-jato']
 Categories: []
 DisableComments: no
+
 ---
+
 
 Embora todo ato normativo que verse sobre concessão de benefício fiscal pareça ter uma “receita de bolo” dizendo para inserir em seu texto que “atrairá investimento, atraindo mais empresas, gerando mais emprego e renda, aquecendo a economia, etc.”, diversos incentivos não parecem fazer sentido do ponto de vista econômico e do bem-estar social. 
 

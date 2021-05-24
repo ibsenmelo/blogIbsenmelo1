@@ -7,9 +7,16 @@ slug: []
 categories: []
 tags: []
 Description: ''
-Tags: []
+Tags: ['benefício fiscal','novo riolog','controle sintético','emprego']
 Categories: []
 DisableComments: no
+output:
+  blogdown::html_page:
+    toc: true
+    fig_width: 7
+    
+   
+   
 
 ---
 
@@ -437,7 +444,7 @@ O presente caso parece ser mais um exemplo de "rent seeking", situação na qual
 
 O outro ponto é que a Lei capixaba traz alguns benefícios para setores industriais específicos. Apesar disso, o ES sofre uma forte desindustrialização. A versão fluminense não comtempla nenhum setor industrial. Isto leva a crer que o impacto poderá ser maior na indústria fluminense gerando maior desemprego, pois o desemprego gerado em outros setores parece superar os empregos gerado no setor atacadista.
 
-## Abaixo, os códigos utilizados (em R) e a fonte dos dados utilizados.
+## Códigos (em R) e fonte dos dados utilizados.
 
 ```{r ref.label=knitr::all_labels(), echo=TRUE, eval=FALSE}
 
