@@ -1,0 +1,6 @@
+"0","library(readxl)"
+"0","dados <- read_excel('ANALISEPARETO.xlsx')"
+"0","#dados <- read_excel('U:/R/Rstudio/tabelas/ANALISEPARETO.xlsx')"
+"0",""
+"0",""
+"0",""

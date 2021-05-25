@@ -1,0 +1,11 @@
+"0","p10 <- dados7  %>% "
+"0","  ggplot(aes(x = BC_S, y = ICMS_S,group=xProd)) +"
+"0","  # Alpha dá transparência ao ponto para mostrar que estão sobrepostos."
+"0","  geom_point(size = 2, alpha = 0.5) + "
+"0","  geom_smooth(method = lm,size = .5, se = FALSE) + # A linha de regressão linear."
+"0","  theme_bw() "
+"0","fig10 <-ggplotly(p10)"
+"2","`geom_smooth()` using formula 'y ~ x'
+"
+"2","Removed 1162 rows containing non-finite values (stat_smooth)."
+"0","fig10"

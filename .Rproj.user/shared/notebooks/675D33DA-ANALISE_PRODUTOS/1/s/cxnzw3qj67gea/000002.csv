@@ -1,0 +1,2 @@
+"0","irrelevancia<-dados4 %>% "
+"0","filter(VP_S<=summary(dados4$VP_S)[4]& VP_E<=summary(dados4$VP_E)[2])"

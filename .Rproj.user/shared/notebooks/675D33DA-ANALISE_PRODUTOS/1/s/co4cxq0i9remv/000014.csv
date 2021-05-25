@@ -1,0 +1,16 @@
+"0","library(ggVennDiagram)"
+"0","# Default plot"
+"0","library(gplots)"
+"0","v.table <- venn(x )"
+"2","List element [[2]] has dimensions, but all elements are considered.
+"
+"2","List element [[1]] has dimensions, but all elements are considered.
+"
+"2","List element [[1]] has dimensions, but all elements are considered.
+"
+"2","List element [[2]] has dimensions, but all elements are considered.
+"
+"2","List element [[1]] has dimensions, but all elements are considered.
+"
+"2","List element [[2]] has dimensions, but all elements are considered.
+"

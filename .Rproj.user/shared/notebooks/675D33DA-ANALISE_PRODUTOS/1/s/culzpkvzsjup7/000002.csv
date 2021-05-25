@@ -1,0 +1,2 @@
+"0","dados7 %>% mutate(CLASSIFICACAO = """") %>%  head(8)  %>%"
+"0"," knitr::kable()"

@@ -1,0 +1,7 @@
+"0",""
+"0","dados7  %>% "
+"0","  ggplot(aes(x = BC_E, y = BC_S)) +"
+"0","  # Alpha dá transparência ao ponto para mostrar que estão sobrepostos."
+"0","  geom_point(size = 2, alpha = 0.5) + "
+"0","  geom_smooth(method = lm,size = .5, se = FALSE) + # A linha de regressão linear."
+"0","  theme_bw()"

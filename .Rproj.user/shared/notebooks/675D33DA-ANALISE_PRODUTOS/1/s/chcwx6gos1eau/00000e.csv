@@ -1,0 +1,1 @@
+"0","dados7 %>% na.omit() %>% filter(VP_E>15*BC_E)"

@@ -1,0 +1,3 @@
+"0","dados_kmeans<- kmeans(data4,4)"
+"0",""
+"0","fviz_cluster(dados_kmeans,data = data4, geom = ""point"",ellipse = FALSE)"

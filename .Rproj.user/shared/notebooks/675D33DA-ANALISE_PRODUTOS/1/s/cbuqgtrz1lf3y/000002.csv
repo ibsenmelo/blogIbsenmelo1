@@ -1,0 +1,10 @@
+"0",""
+"0","dados5<- anti_join(dados4, caso2)"
+"2","Joining, by = c(""cProd"", ""xProd"", ""VP_E"", ""BC_E"", ""ICMS_E"", ""VP_S"", ""BC_S"", ""ICMS_S"")
+"
+"0","dados6<- anti_join(dados5, caso3)"
+"2","Joining, by = c(""cProd"", ""xProd"", ""VP_E"", ""BC_E"", ""ICMS_E"", ""VP_S"", ""BC_S"", ""ICMS_S"")
+"
+"0","dados7<- anti_join(dados6, irrelevancia)"
+"2","Joining, by = c(""cProd"", ""xProd"", ""VP_E"", ""BC_E"", ""ICMS_E"", ""VP_S"", ""BC_S"", ""ICMS_S"")
+"

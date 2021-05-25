@@ -1,0 +1,4 @@
+"0","caso2<- dados4 %>% "
+"0","  filter(VP_S<summary(dados4$VP_S)[4])  %>%"
+"0","  arrange(desc(VP_E))"
+"0",""

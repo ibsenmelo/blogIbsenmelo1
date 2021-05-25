@@ -1,0 +1,7 @@
+"0","#library(DataEditR)"
+"0","#library(tidyverse)"
+"0","#library(tidyquant)"
+"0","dados8<- dados7 %>% select(cProd,xProd) %>%  mutate(classificacao= as.character(""a"")) "
+"0","#classificacao <- data_edit(x=dados8) "
+"0","#classificacao %>%  head(10)  %>%"
+"0"," #knitr::kable()"

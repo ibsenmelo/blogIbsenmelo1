@@ -1,0 +1,1 @@
+"0","  intersect(dados7 %>% filter(VP_S>15*BC_S) %>% select(xProd), dados7 %>% filter(VP_E>15*BC_E)  %>% select(xProd) )"

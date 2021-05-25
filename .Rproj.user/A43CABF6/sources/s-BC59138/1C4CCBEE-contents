@@ -1,0 +1,30 @@
+# criando o blog com blogdown
+
+setwd("~/Documents/rdir")
+
+usethis::create_project('./blogIbsenmelo1')
+
+usethis::use_git()
+
+usethis::use_github() # cria o diretorio no github
+
+#blogdown::new_site("./blogTeste", theme = "lxndrblz/anatole")
+blogdown::new_site(".", theme = "lxndrblz/anatole")
+
+blogdown::serve_site()
+
+blogdown::new_post(title = "Os benefícios fiscais e seus objetivos não econômicos",
+                   ext = '.Rmd',
+                   subdir = "post")
+
+usethis::use_git()
+
+
+
+blogdown::stop_server()
+
+blogdown::build_site()
+
+# no terminal: git commit -m "<comentario>"
+
+# no terminal: git push

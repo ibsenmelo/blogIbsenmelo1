@@ -1,0 +1,6 @@
+"0","dados2 <- dados %>% slice_max(VP_E, n = 20)"
+"0","dados3 <- dados %>% slice_max(VP_S, n = 20)"
+"0","top_VP<- intersect(dados2,dados3)"
+"0","dados4<- anti_join(dados, top_VP)"
+"2","Joining, by = c(""cProd"", ""xProd"", ""VP_E"", ""BC_E"", ""ICMS_E"", ""VP_S"", ""BC_S"", ""ICMS_S"")
+"
