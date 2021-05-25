@@ -10,13 +10,7 @@ Description: ''
 Tags: ['benefício fiscal','novo riolog','controle sintético','emprego']
 Categories: []
 DisableComments: no
-output:
-  blogdown::html_page:
-    toc: true
-    
-    
-   
-   
+
 
 ---
 
@@ -39,7 +33,7 @@ Tendo em vista que o benefício fiscal aprovado pelo governo do RJ já está em 
 
 Como a Lei 10.568/16 foi publicada em julho de 2016 mas recebeu diversas alterações naquele mesmo ano(Lei 10574 de 17/08/2016 e Lei 10587 de 03/11/2016) adotou-se janeiro de 2017 como início dos efeitos da referida lei, do ponto de vista econômico.
 
-As variáveis observadas foram a arrecadação de ICMS, o nível de desemprego e a produção industrial. A variável nível de desemprego foi obtida por consulta aos dados do Banco Central (BCB), a variável arrecadação foi obtida em consulta ao Ministério da Fazenda (MF/Cotepe) e a variãvel produção industrial foi obtida do IBGE, dados da pesquisa industrial mensal - produção física - divulgação regional.
+As variáveis observadas foram a arrecadação de ICMS, o nível de desemprego, a produção industrial e atividade econômica (IBC). A variável nível de desemprego foi obtida por consulta aos dados do Banco Central (BCB), a variável arrecadação foi obtida em consulta ao Ministério da Fazenda (MF/Cotepe) e a variãvel produção industrial foi obtida do IBGE, dados da pesquisa industrial mensal - produção física - divulgação regional.
 
 
 O metodo utilizado para medir o impacto foi o de controle sintético. Tal  método é um dos mais modernos para avaliação de políticas públicas (vide [ipea](https://www.ipea.gov.br/portal/images/stories/PDFs/livros/livros/181009_politicas_publicas_no_brasil_cap12.pdf) e [FGV/IBRE](https://blogdoibre.fgv.br/posts/recessao-brasileira-2014-2016-uma-analise-por-meio-do-metodo-do-controle-sintetico-do-pib-pib)). O método do controle sintético busca criar uma nova versão "sintética" da variável em estudo. Ele utiliza a observação da mesma variável em unidades de controle, ou seja, que não foram submetidas à intervenção e tenta recriar a variável observada no indivíduo submetido à determinada política pública.
