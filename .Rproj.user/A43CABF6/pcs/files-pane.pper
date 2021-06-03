@@ -1,9 +1,9 @@
 {
-    "path" : "~/Documents/rdir/blogIbsenmelo1",
-    "sortOrder" : [
+    "path": "~/Documents/rdir/blogIbsenmelo1/content/english/post/2021-05-21-benefícios-fiscais-e-seus-reflexos-econômicos",
+    "sortOrder": [
         {
-            "ascending" : true,
-            "columnIndex" : 2
+            "columnIndex": 2,
+            "ascending": true
         }
     ]
 }

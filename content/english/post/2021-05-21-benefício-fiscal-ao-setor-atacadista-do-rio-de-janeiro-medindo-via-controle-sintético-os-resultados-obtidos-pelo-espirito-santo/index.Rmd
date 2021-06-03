@@ -410,7 +410,7 @@ out_ibc <- gsynth(value ~ treated, data = ibc_total,  index = c("estado","data")
 
 ## Atividade Econômica
 
-Por fim, foi análisada a atividade econômica por meio do indicedivulgado pelo Banco Central, o Índice de Atividade Econômica do Banco Central (IBC). Este indicador apresenta divulgação mensal e objetiva mensurar a evolução contemporânea da atividade do país e de algumas unidades da federação (SC, PR, RS, GO, DF, BA, CE, PE, SP, MG, ES e RJ).
+Por fim, foi análisada a atividade econômica por meio do indice divulgado pelo Banco Central, o Índice de Atividade Econômica do Banco Central (IBC). Este indicador apresenta divulgação mensal e objetiva mensurar a evolução contemporânea da atividade econômica do país e de algumas unidades da federação (SC, PR, RS, GO, DF, BA, CE, PE, SP, MG, ES e RJ).
 
 ```{r c23}
 plot(out_ibc, type = "raw", theme.bw = F, xlim = c(1,216))
@@ -436,7 +436,7 @@ O RJ está no regime de recuperação fiscal. Com isso, precisará adotar medida
 
 O presente caso parece ser mais um exemplo de "rent seeking", situação na qual um grupo exerce pressão para obter maior fatia na riqueza existente na sociedade, sem que a ação gere aumento de riqueza. Conforme artigo de [James Bessen](https://hbr.org/2016/05/lobbyists-are-behind-the-rise-in-corporate-profits) as grandes empresas obtem boa parte de seus lucros através de lobby político para obter vantagens legislativas. Segundo [Leandro Narloch](https://www.mises.org.br/Article.aspx?id=2809), para o "rent seeking" funcionar o discurso é fundamental. Neste ponto é inserida uma justificativa que faça o interesse privado parecer interesse público. Quando o assunto é benefício fiscal os argumentos mais utilizados são que vai atrair mais empresas, gerar mais empregos (esse é o mais usado), atrair investimentos, entre outros.
 
-O outro ponto é que a Lei capixaba traz alguns benefícios para setores industriais específicos. Apesar disso, o ES sofre uma forte desindustrialização. A versão fluminense não comtempla nenhum setor industrial. Isto leva a crer que o impacto poderá ser maior na indústria fluminense gerando maior desemprego, pois o desemprego gerado em outros setores parece superar os empregos gerado no setor atacadista.
+Um outro ponto a destacar é que a Lei capixaba traz alguns benefícios para setores industriais específicos. Apesar disso, o ES sofre uma forte desindustrialização. A versão fluminense não comtempla nenhum setor industrial. Isto leva a crer que o impacto poderá ser maior na indústria fluminense gerando maior desemprego, pois o desemprego gerado em outros setores parece superar os empregos gerado no setor atacadista.
 
 ## Códigos (em R) e fonte dos dados utilizados.
 

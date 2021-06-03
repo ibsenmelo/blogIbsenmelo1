@@ -1,5 +1,5 @@
 ---
-title: Os benefícios fiscais e seus objetivos não econômicos
+title: Os objetivos ocultos dos benefícios fiscais
 author: Ibsen Melo
 date: '2021-05-23'
 slug: []
@@ -32,6 +32,38 @@ Nas eleições de 2014, o grupo Petrópolis foi segundo maior doador de campanha
 Em outra situação, o grupo VIGOR/JBS, dos empresários Joesley Batista e Ricardo Saud, aderiu ao benefício fiscal denominado RIOLOG em 2013. Conforme apontamentos do MPRJ, tal adesão gerou para o estado uma renuncia fiscal de R\$ 114 milhões. Deste valor, R\$ 30 milhões foram repassados para políticos sob a forma de doação eleitoral e caixa 2. Em 2014, o grupo empresarial de Joesley Batista também obteve benefício fiscal^[http://www.mprj.mp.br/documents/20184/540394/ao_de_responsabilizao_judicial__lei_anticorrupo__br_foods.pdf]  para o setor de carnes através do Decreto 44.658/14. O grupo foi o maior doador de campanha para o PMDB em 2014, doando o valor de R\$ 21.600.000,00.
 
 Desta forma, é possível observar que os benefícios fiscal foram muito utilizados para atender interesses de grupos políticos e empresariais, as custas dos cofres públicos. Embora os textos legais versem que tal benefício tem por objetivo melhoria dos empregos ou de determinado setor, uma vez publicada a norma, dificilmente são apresentadas, de forma transparente, metricas para apontar se o objetivo da norma foi alcançado. Isto, conforme exemplificado acima, agora faz sentido pois o objetivo real de um benefício fiscal, muitas vezes, é atender apenas a interesses privados.
+
+```{r, echo=FALSE, warning=FALSE}
+library(magrittr)
+library(gt)
+
+razao <- c("JBS S/A", "Cervejaria Petrópolis","RJ Referscos Ltda.","Construtora OAS")
+doacao <- c("21,6", "11,7","7,7","5,9")
+beneficio <- c("43,7","166,9","431","60")
+
+tabela <- data.frame(razao,doacao,beneficio)
+
+
+tabela %>% gt() %>% 
+  tab_header( 
+    title = "Doações oficiais ao PMDB", 
+    subtitle = "Eleições de 2014")%>% 
+  cols_label(razao = "Razão Social", doacao = "Valor doado em 2014", beneficio = "Benefício Fiscal (2008-2017)") %>% 
+   tab_footnote(
+    footnote = "Valores em milhões", # This is the footnote text
+    locations = cells_column_labels(
+      columns = doacao 
+      ))%>% 
+   tab_footnote(
+    footnote = "Valores em milhões", # This is the footnote text
+    locations = cells_column_labels(
+      columns = beneficio 
+      ))%>%
+  tab_source_note(
+    source_note = "Fonte: Ministério Público do Estado do Rio de Janeiro")
+
+```
+
 
 Por fim, em 2016 o estado do RJ entra em uma grave crise fiscal. Deixa de pagar dívidas garantidas pela União, obrigando o Tesouro Nacional a pagar 22,9 bilhões aos credores do estado. Devido à decisões favoráveis obtidas pelo RJ junto ao Supremo Tribunal Federal, o governo Federal não pôde cobrar essa dívida do RJ^[http://www.fazenda.rj.gov.br/transparencia/content/conn/UCMServer/uuid/dDocName%3aWCC42000019231] . Com isso, uma parte do custo da corrupção (utilizando, entre outros artifícios, de benefícios fiscais) ficou para o restante do país.
 
