@@ -1,0 +1,70 @@
+---
+title: Os objetivos ocultos dos benefícios fiscais
+author: Ibsen Melo
+date: '2021-05-23'
+slug: []
+categories: []
+tags: []
+Description: ''
+Tags: ['benefício fiscal','mprj','lava-jato']
+Categories: []
+DisableComments: no
+
+---
+
+
+Embora todo ato normativo que verse sobre concessão de benefício fiscal pareça ter uma “receita de bolo” dizendo para inserir em seu texto que “atrairá investimento, atraindo mais empresas, gerando mais emprego e renda, aquecendo a economia, etc.”, diversos incentivos não parecem fazer sentido do ponto de vista econômico e do bem-estar social. 
+
+Um exemplo é o caso ocorrido em 2012, no qual o governo federal, ao pretexto de proteger a indústria nacional, aumentou a alíquota de importação das resinas plasticas. Entretanto, no mercado nacional, a empresa Braskem (Controlada pela Odebrecht) controla este mercado. Com isso, a referida empresa passou a ter o monopólio, podendo praticar preços de monopólio, os quais costumam ser maiores que os preços de livre concorrência. Por fim, no ano seguinte os preços das resinas plásticas ficaram 27% mais caras^[https://economia.estadao.com.br/noticias/geral,com-setor-protegido-braskem-eleva-precos-imp-,955706].
+
+No estado do RJ, a Odebrecht/Braskem também conseguiu ter seus interesses atendidos pelo governo. No projeto de Lei da que mais tarde seria a Lei 6.979/15, a empresa pleiteou junto ao governo (conforme consta em termo de colaboração premiada da Odebrecht^[http://www.mprj.mp.br/documents/20184/540394/acp_inicial_doacao_campanha.pdf]) uma alteração no projeto de Lei de tal forma que o setor petroquímico não tivesse seu benefício fiscal alterado de diferimento para isenção, o que oneraria mais o setor. Tal pleito da Odebrecht foi prontamente atendido e a redação final da Lei alterou a tributação apenas para o setor de aço. Estima-se que tal pleito tenha custado aos cofres públicos um valor entre R\$ 170 e R\$ 340 milhões para o estado.
+
+Ainda no estado do RJ, em 2014 foi editado o Decreto 44.550/14 o qual reduziu em 100% a base de cálculo do ICMS na prestação do serviço de transporte de passageiros por ônibus urbano ou metropolitano. Segundo dados do MPRJ^[http://www.mprj.mp.br/documents/20184/540394/acp_inicial_doacao_campanha.pdf] , tal decreto acarretou uma renúncia anual de R$ 150 milhões em impostos para o estado. Além disso, também em 2014 as empresas de ônibus foram beneficiadas com a redução em 50% do IPVA devido, conforme Decreto 44.568/14. Apesar disso, as tarifas de ônibus apresentaram um reajuste de 5,7% em 2014 e de 12,46% em 2015.
+
+Segundo o MPRJ, entre 2010 e 2014 as empresas de ônibus repassaram, como propina, R$ 144 milhões para políticos do estado do RJ. Com isso, os empresários garantiam o controle da máquina pública, obtendo benefícios na política tarifárias e incentivos fiscais, entre outros.
+
+Em 1997 foi instituido o Decreto 23.012/97 (RIOINVEST), o qual tinha por objetivo atrair investimentos industriais estratégicos para o estado, utilizando recursos do FUNDES. Em 2015, o governo edita o Decreto 45.420/15, o qual acrescenta nova hipótese de financiamento com recursos do FUNDES. Esta nova hipótese prevê a utilização dos recursos do FUNDES para todo tipo de investimento, mesmo que tal investimento já tenha ocorrido e ainda que o investimento tenha sido realizado por terceiros. Para melhor entender como funciona este ato normativo vamos apresentar um caso em que ele foi aplicado.
+
+Ainda em 2015, o governo do RJ concedeu ao grupo empresarial Petrópolis um crédito de R\$ 687 milhões para investimento em suas fábricas. Ocorre que deste valor, R\$ 587 milhões eram para financiar projetos que já haviam ocorrido no período de 2008 a 2014, os quais, inclusive, foram financiados pelo BNDES. Ou seja, o estado estava financiando investimentos que já haviam ocorridos e que, inclusive, já foram financiados. 
+
+Nas eleições de 2014, o grupo Petrópolis foi segundo maior doador de campanha para o PMDB, partido de Ségio Cabral e Pezão. O valor declarado de doação para a campanha foi de R\$ 10.800.000,00. Além disso, segundo o Conselho de Controle de Atividades Financeiras (COAF), havia fortes suspeitas de lavagem de dinheiro com uma grande triangulação financeira entre as empresas da família Picciani, a empresa Odebrecht e o grupo Petrópolis. Em delação premiada, o presidente executivo da Odebrecht detalha que, em apenas uma das operações realizadas entre esses três grupos, foi disponibilizado R\$ 40 milhões em propina.
+
+Em outra situação, o grupo VIGOR/JBS, dos empresários Joesley Batista e Ricardo Saud, aderiu ao benefício fiscal denominado RIOLOG em 2013. Conforme apontamentos do MPRJ, tal adesão gerou para o estado uma renuncia fiscal de R\$ 114 milhões. Deste valor, R\$ 30 milhões foram repassados para políticos sob a forma de doação eleitoral e caixa 2. Em 2014, o grupo empresarial de Joesley Batista também obteve benefício fiscal^[http://www.mprj.mp.br/documents/20184/540394/ao_de_responsabilizao_judicial__lei_anticorrupo__br_foods.pdf]  para o setor de carnes através do Decreto 44.658/14. O grupo foi o maior doador de campanha para o PMDB em 2014, doando o valor de R\$ 21.600.000,00.
+
+Desta forma, é possível observar que os benefícios fiscal foram muito utilizados para atender interesses de grupos políticos e empresariais, as custas dos cofres públicos. Embora os textos legais versem que tal benefício tem por objetivo melhoria dos empregos ou de determinado setor, uma vez publicada a norma, dificilmente são apresentadas, de forma transparente, metricas para apontar se o objetivo da norma foi alcançado. Isto, conforme exemplificado acima, agora faz sentido pois o objetivo real de um benefício fiscal, muitas vezes, é atender apenas a interesses privados.
+
+```{r, echo=FALSE, warning=FALSE}
+library(magrittr)
+library(gt)
+
+razao <- c("JBS S/A", "Cervejaria Petrópolis","RJ Referscos Ltda.","Construtora OAS")
+doacao <- c("21,6", "11,7","7,7","5,9")
+beneficio <- c("43,7","166,9","431","60")
+
+tabela <- data.frame(razao,doacao,beneficio)
+
+
+tabela %>% gt() %>% 
+  tab_header( 
+    title = "Doações oficiais ao PMDB", 
+    subtitle = "Eleições de 2014")%>% 
+  cols_label(razao = "Razão Social", doacao = "Valor doado em 2014", beneficio = "Benefício Fiscal (2008-2017)") %>% 
+   tab_footnote(
+    footnote = "Valores em milhões", # This is the footnote text
+    locations = cells_column_labels(
+      columns = doacao 
+      ))%>% 
+   tab_footnote(
+    footnote = "Valores em milhões", # This is the footnote text
+    locations = cells_column_labels(
+      columns = beneficio 
+      ))%>%
+  tab_source_note(
+    source_note = "Fonte: Ministério Público do Estado do Rio de Janeiro")
+
+```
+
+
+Por fim, em 2016 o estado do RJ entra em uma grave crise fiscal. Deixa de pagar dívidas garantidas pela União, obrigando o Tesouro Nacional a pagar 22,9 bilhões aos credores do estado. Devido à decisões favoráveis obtidas pelo RJ junto ao Supremo Tribunal Federal, o governo Federal não pôde cobrar essa dívida do RJ^[http://www.fazenda.rj.gov.br/transparencia/content/conn/UCMServer/uuid/dDocName%3aWCC42000019231] . Com isso, uma parte do custo da corrupção (utilizando, entre outros artifícios, de benefícios fiscais) ficou para o restante do país.
+
+Outra parte dos custos foram repassados para a população. O governo do RJ apresenta, ainda em 2016, as medidas de austeridade numa tentativa de reequilibrar as contas do estado (popularmente ficou conhecido como “pacote de maldades”). Tais medidas previam aumento de desconto previdenciário, aumento da tarifa de ônibus (Bilhete Único), além da aplicação de contribuição previdenciária de 30% para aposentados e pensionistas que recebiam até R$ 5.189 e antes eram isentos. Foram majorados os impostos (ICMS) sobre a energia elétrica, serviços de comunicação, gasolina, cerveja e chope (Lei 7508/16).

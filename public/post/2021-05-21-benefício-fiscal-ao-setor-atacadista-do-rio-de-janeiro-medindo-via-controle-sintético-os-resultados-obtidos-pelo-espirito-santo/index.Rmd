@@ -1,0 +1,449 @@
+---
+title: 'Benefício fiscal ao setor atacadista do Rio de Janeiro, medindo via controle
+  sintético os resultados obtidos pelo Espirito Santo'
+author: Ibsen Melo
+date: '2021-05-21'
+slug: []
+categories: []
+tags: []
+Description: ''
+Tags: ['benefício fiscal','novo riolog','controle sintético','emprego']
+Categories: []
+DisableComments: no
+
+
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F,message = FALSE, warning = F)
+```
+
+
+
+Diversos estados brasileiros adotaram a guerra fiscal como forma de atrair mais empresas. A guerra fiscal, de forma simplificada, seria uma redução de impostos visando atrair empresas. Embora a redução da carga tributária possa levar a uma redução da arrecadação, alguns argumentam que, ao atrair mais empresas, o estado arrecadaria mais pela maior quantidade de empresas. Contudo, a guerra fiscal entre os estados existam há mais de uma década e os estudos são escassos nessa área.
+
+Em 2020 houve um  debate sobre o projeto de Lei 2772/20 ( conforme [DOERJ 10/08/2020](http://www.ioerj.com.br/portal/modules/conteudoonline/mostra_edicao.php?session=VW10VmVGSnFRWGxSVlZWMFRrUktSbEpwTURCTmExazBURlJuZUUxcVZYUk5WRVY1VDBSa1FrNVZXa1pOUkVrMQ==), [DOERJ 18/08/2020](http://www.ioerj.com.br/portal/modules/conteudoonline/mostra_edicao.php?session=VG5wRk1VMVVXVE5PUkZsMFVrUmplRTU1TURCT1JWSkdURlZGTWsxVlNYUk9SVVUxVDFSVk1FNTZSVE5OVkVwQw==) e [DOERJ 03/09/2020](http://www.ioerj.com.br/portal/modules/conteudoonline/mostra_edicao.php?session=VFdwT1IwNXFXVEpPTUVWMFVsUkNSazU1TURCT2FrMHlURlJuTlU5RVVYUlNhMWt6VW1wc1EwNVVTVE5PVkU1RFRWUlZOVTlVU1hwT2VrRTFUbmM5UFE9PQ==)) que após aprovado se tronou a Lei 9025/20. Tal lei versa sobre benefício fiscal para o setor atacadista do Rio de Janeiro e foi inspirada na Lei 10.568/16 do Espirito Santo (ES).
+
+Visando gerar maior competitividade para o setor atacadista do Espirito Santo, o Governo local publicou a Lei 10.568/16, conhecida como COMPETE/ES. Tal lei prevê  benefícios fiscais para o setor atacadista. Um destes benefícios é a redução da carga tributária do ICMS para 1,1% quando o estabelecimento efetuar saídas interestaduais. Atualmente a alíquota interestadual do ICMS é de 12% ou 7%, dependendo do caso.
+
+Tendo em vista que o benefício fiscal aprovado pelo governo do RJ já está em utilização no ES, neste estudo procuramos avaliar os impactos gerados na economia capixaba.
+
+## Métodos
+
+Como a Lei 10.568/16 foi publicada em julho de 2016 mas recebeu diversas alterações naquele mesmo ano(Lei 10574 de 17/08/2016 e Lei 10587 de 03/11/2016) adotou-se janeiro de 2017 como início dos efeitos da referida lei, do ponto de vista econômico.
+
+As variáveis observadas foram a arrecadação de ICMS, o nível de desemprego, a produção industrial e atividade econômica (IBC). A variável nível de desemprego foi obtida por consulta aos dados do Banco Central (BCB), a variável arrecadação foi obtida em consulta ao Ministério da Fazenda (MF/Cotepe) e a variãvel produção industrial foi obtida do IBGE, dados da pesquisa industrial mensal - produção física - divulgação regional.
+
+
+O metodo utilizado para medir o impacto foi o de controle sintético. Tal  método é um dos mais modernos para avaliação de políticas públicas (vide [ipea](https://www.ipea.gov.br/portal/images/stories/PDFs/livros/livros/181009_politicas_publicas_no_brasil_cap12.pdf) e [FGV/IBRE](https://blogdoibre.fgv.br/posts/recessao-brasileira-2014-2016-uma-analise-por-meio-do-metodo-do-controle-sintetico-do-pib-pib)). O método do controle sintético busca criar uma nova versão "sintética" da variável em estudo. Ele utiliza a observação da mesma variável em unidades de controle, ou seja, que não foram submetidas à intervenção e tenta recriar a variável observada no indivíduo submetido à determinada política pública.
+
+
+
+
+```{r c1}
+library(tidyverse)
+library(gsynth)
+library(BETS)
+```
+
+
+
+
+## Arrecadação
+
+```{r c2, eval=FALSE}
+
+# baixando, tratando e salvando os dados
+
+data <-"2010-01-01" # data inicial
+
+
+acre <- BETSget(4326, from = data)
+alagoas <- BETSget(4333, from = data)
+amapa <- BETSget(4327, from = data)
+amazonas <- BETSget(4328, from = data)
+bahia <- BETSget(4334, from = data)
+ceara <- BETSget(4335, from = data)
+df <- BETSget(4349, from = data)
+es <- BETSget(4342, from = data)
+goias <- BETSget(4350, from = data)
+maranhao <- BETSget(4336, from = data)
+mt <- BETSget(	4351, from = data)
+ms <- BETSget(4352, from = data)
+mg <- BETSget(4343, from = data)
+para <- BETSget(4329, from = data)
+pb <- BETSget(4337, from = data)
+parana <- BETSget(4346, from = data)
+pe <- BETSget(4338, from = data)
+piaui <- BETSget(4339, from = data)
+rj <- BETSget(4344, from = data)
+rn <- BETSget(4340, from = data)
+rs <- BETSget(4347, from = data)
+rondonia <- BETSget(4330, from = data)
+rr <- BETSget(4331, from = data)
+sc <- BETSget(4348, from = data)
+sp <- BETSget(4345, from = data)
+sergipe <- BETSget(4341, from = data)
+tocantins <- BETSget(4332, from = data)
+
+
+
+icms_uf <- ts.union(acre, alagoas, amapa, amazonas, bahia, ceara, df ,
+                    es, goias, maranhao, mt, ms, mg, para, pb, parana,
+                    pe, piaui, rj, rn, rs, rondonia, rr, sc, sp, sergipe, tocantins) 
+
+
+
+dado <- as.data.frame(icms_uf)
+
+dado$data <- seq(as.Date(data), by = "month", length.out = nrow(dado))
+
+dado1 <- pivot_longer(dado,cols = acre:tocantins, names_to = "estado")
+
+dado1$treated <- ifelse(dado1$data > "2016-12-01" & dado1$estado == "es",1,0)
+
+write_csv2(dado1,"icms_uf.csv")
+```
+
+
+
+
+
+```{r c3}
+dado1 <- read_csv2("icms_uf.csv")
+
+```
+
+
+```{r c4}
+library(panelView)
+
+
+panelView(value ~ treated, data = dado1,  index = c("estado","data"), pre.post = TRUE) 
+
+```
+
+Conforme tabela acima, foram utilizados dados em painel balanceado. O ES é o estado estudado e os demais estados são os controles. Foram utilizados dados mensais de janeiro de 2010 a dezembro de 2018.
+
+```{r c5, results='hide'}
+out_ar <- gsynth(value ~ treated, data = dado1,  index = c("estado","data"), 
+              force = "two-way", CV = TRUE, r = c(1, 4), se = TRUE, 
+              inference = "parametric", nboots = 1000, parallel = FALSE)
+
+```
+
+```{r c6}
+plot(out_ar, type = "raw", theme.bw = F)
+```
+
+Acima estão os dados da arrecadação de ICMS dos estados. O maior valor que se destaca dos demais é o estado de São Paulo. A segunda maior arrecadação é o estado de Minas Gerais e o RJ está em terceiro. Mas por algum motivo que desafia a lógica o estado do Rio de Janreiro está usando o ES como referência.
+
+
+
+
+```{r c7}
+plot(out_ar, type = "counterfactual", raw = "none", main="", xlim = c(1,108))
+
+```
+
+No gráfico acima é possível ver o resultado do controle sintético. A linha preta representa a arrecadação do ES. A linha azul representa o contrafactual, o controle sintetico gerado pelo modelo. A área cinza escura representa o período após o evento. Pelo gráfico podemos dizer que a arrecadação do estado não apresentou mudanças após o início do benefício fiscal. As linhas azul e preta continuam andando muito próximas. Portanto, não  houve perda nem ganho de arrecadação.
+
+
+
+
+
+## Emprego
+
+
+```{r c8, eval=FALSE}
+library(Quandl)
+
+df.search <- Quandl.search("'rio de janeiro'",
+                           silent = TRUE,
+                           per_page = 200)
+```
+
+
+```{r c9, eval=FALSE}
+
+# baixando, tratando e salvando os dados de desemprego
+
+library(Quandl)
+
+data <- "2010-01-01"
+
+desemprego_es <- Quandl("BCB/12781", type="ts", start_date=data)
+desemprego_rj <- Quandl("BCB/12779", type="ts", start_date=data)
+desemprego_pe <- Quandl("BCB/12640", type="ts", start_date=data)
+desemprego_ap <- Quandl("BCB/12538", type="ts", start_date=data)
+desemprego_am <- Quandl("BCB/12539", type="ts", start_date=data)
+desemprego_pa <- Quandl("BCB/12540", type="ts", start_date=data)
+desemprego_ro <- Quandl("BCB/12541", type="ts", start_date=data)
+desemprego_rr <- Quandl("BCB/12542", type="ts", start_date=data)
+desemprego_to <- Quandl("BCB/12543", type="ts", start_date=data)
+desemprego_pr <- Quandl("BCB/12615", type="ts", start_date=data)
+desemprego_pb <- Quandl("BCB/12641", type="ts", start_date=data)
+desemprego_al <- Quandl("BCB/12643", type="ts", start_date=data)
+desemprego_se <- Quandl("BCB/12644", type="ts", start_date=data)
+desemprego_ma <- Quandl("BCB/13142", type="ts", start_date=data)
+desemprego_pi <- Quandl("BCB/13143", type="ts", start_date=data)
+desemprego_ce <- Quandl("BCB/13141", type="ts", start_date=data)
+desemprego_sc <- Quandl("BCB/12622", type="ts", start_date=data)
+desemprego_sp <- Quandl("BCB/12868", type="ts", start_date=data)
+desemprego_rn <- Quandl("BCB/12642", type="ts", start_date=data)
+desemprego_rs <- Quandl("BCB/13103", type="ts", start_date=data)
+
+
+
+
+desmprego <- ts.union(
+  desemprego_es,
+desemprego_rj ,
+desemprego_pe,
+desemprego_ap,
+desemprego_am,
+desemprego_pa,
+desemprego_ro,
+desemprego_rr,
+desemprego_to,
+desemprego_pr,
+desemprego_pb,
+desemprego_al,
+desemprego_se,
+desemprego_ma,
+desemprego_pi,
+desemprego_ce,
+desemprego_sc,
+desemprego_sp,
+desemprego_rn,
+desemprego_rs
+)
+
+desemprego <- as.data.frame(desmprego)
+
+desemprego$data <- seq(as.Date(data), by = "month", length.out = nrow(desemprego))
+
+desemprego <- pivot_longer(desemprego, cols = desemprego_es:desemprego_rs, names_to = "estado")
+
+desemprego$treated <- ifelse(desemprego$data > "2016-12-01" & desemprego$estado == "desemprego_es",1,0)
+
+# retirando estados que não possuem dados completos
+
+retirar <- unique(desemprego$estado[is.na(desemprego$value)])
+
+desemprego <- desemprego[!(desemprego$estado %in% retirar),]
+
+write_csv2(desemprego,"desemprego.csv")
+```
+
+
+
+```{r c10}
+desemprego <- read_csv2("desemprego.csv")
+```
+
+
+
+```{r c11, results='hide'}
+out <- gsynth(value ~ treated, data = desemprego,  index = c("estado","data"), 
+              force = "two-way", CV = TRUE, r = c(1, 4), se = TRUE, 
+              inference = "parametric", nboots = 1000, parallel = TRUE)
+
+```
+
+
+
+```{r c12}
+plot(out, type = "raw", theme.bw = F)
+```
+
+Acima, o indice de desemprego dos estados no período de janeiro de 2010 a dezembro de 2018. Em vermelho o estado do Espirito Santo. Foram utilizados dados mensais de janeiro de 2010 a dezembro de 2018.
+
+```{r c13}
+plot(out, type = "counterfactual", raw = "none", xlab = "Periodo", main = "indice de desemprego",xaxt="none",xlim = c(1,108))
+
+```
+
+Neste gráfico observamos o resultado da aplicação do método do controle sintético. Neste caso fica claro que há um descolamento entre o indice real de desemprego e o contrafactual no período após o início do benefício fiscal. Ou seja, o nível de desemprego ficou acima do esperado. A vigência do benefício fiscal parece ter aumentado o nível de desemprego, com a variação chegando muitas vezes a mais de 3 pontos.
+
+Os resultados apurados parecem sugerir que outros setores podem ter arcado com os custos do benefício. Ao fortalecer o setor atacadista pode ter ocorrido um enfraquecimento do setor industrial. Supondo que em alguns casos a indústria venham a competir pelo mesmo mercado (o mercado interestadual, por exemplo), o atacado passa a ter uma vantagem competitiva via menores custos. Para a indústria continuar vendendo para outros estados vai precisar vender via atacado, induzindo uma espécie de oligopsônio para a indústria local. O setor atacadista do ES já possuia benefício fiscal nas operações internas decorrente da Lei nº 7.000/2001, art. 5-A, inc. VII, trazendo vantagem em relação à industria no mercado interno.
+
+Parece que a argumentação de que o benefício fiscal vai "gerar mais empregos" não se sustenta.
+
+## Indústria
+
+
+
+```{r c14}
+library(readxl)
+tab2 <- read_xlsx("tabela3653.xlsx", skip = 3)
+
+tab2 <- tab2[-c(1,227,228),-14]
+
+colnames(tab2)[1] <- 'data'
+
+data <- "2002-01-01"
+
+tab2$data <- seq(as.Date(data), by = "month", length.out = nrow(tab2))
+
+tab2 <- pivot_longer(tab2,cols = Amazonas:Goiás, names_to = "estado")
+
+tab2$value <- as.double(tab2$value)
+```
+
+
+```{r c15}
+tab2$treated <- ifelse(tab2$data > "2016-12-01" & tab2$estado == "Espírito Santo",1,0)
+#tab2$treated <- ifelse(tab2$data > "2016-12-01" & tab2$estado == "Rio de Janeiro",1,0)
+
+```
+
+
+
+
+
+
+
+
+```{r c16, results='hide'}
+out2 <- gsynth(value ~ treated, data = tab2,  index = c("estado","data"), 
+              force = "two-way", CV = TRUE, r = c(1, 4), se = TRUE, 
+              inference = "parametric", nboots = 1000, parallel = TRUE)
+
+```
+
+```{r c17}
+plot(out2, type = "raw", theme.bw = F, xlim = c(1,216))
+
+```
+
+Acima os dados da produção indústrial dos estados sem tratamento estatístico prévio. A linha laranja representa o ES. Foram utilizados dados mensais de janeiro de 2002 a dezembro de 2019.
+
+```{r c18}
+plot(out2, type = "counterfactual", raw = "none", xlab = "Periodo", main = "indice de produção industrial", xlim = c(1,216))
+
+```
+
+No gráfico acima observa-se o resultado da aplicação do modelo de controle sintético. Após o evento, o *gap* entre a produção real e seu contrafactual apenas aumenta com o passar do tempo. Tal evento pode ser o motivo do aumento no nível de desemprego no ES.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r c19}
+tab1 <- read_delim("tabela_ind_estados.csv", ";")
+
+knitr::kable(na.exclude(tab1))
+```
+
+Acima, tabela com dados do IBGE sobre a produção industrial dos estados em dezembro de 2019. Nele, o ES apresenta o pior resultado, apresentando uma redução de 15,1% em sua produção industrial no ano de 2019 quando comparado ao ano de 2018. Possívelmente, a maior parte das mercadorias adquiridas pelo setor atacadista vem de fora do estado. 
+
+
+```{r c20, eval=FALSE}
+
+data <-"2001-01-01" # data inicial
+
+
+Rio_de_Janeiro <- BETSget(25397, from = data) #economic activity index rj dessazonalizado
+sao_paulo <- BETSget(25394, from = data) #economic activity index sp dessazonalizado
+minas_gerais<- BETSget(25380, from = data) #economic activity index mg dessazonalizado
+espirito_santo<- BETSget(25399, from = data) #economic activity index es dessazonalizado
+
+
+SC<- BETSget(25405, from = data) #economic activity index es dessazonalizado
+parana<- BETSget(25413, from = data) #economic activity index es dessazonalizado
+RS<- BETSget(25404, from = data) #economic activity index es dessazonalizado
+
+GO<- BETSget(25384, from = data) #economic activity index es dessazonalizado
+DF<- BETSget(25384, from = data)
+BA<-  BETSget(25416, from = data)
+CE <- BETSget(25391, from = data)
+PE <- BETSget(25418, from = data)
+
+
+
+
+ibc_total<-ts.union(SC,parana,RS,GO,DF,BA,CE,PE,
+                    sao_paulo,minas_gerais,espirito_santo, Rio_de_Janeiro)
+
+
+
+
+
+ibc_total <- as.data.frame(ibc_total)
+
+ibc_total$data <- seq(as.Date(data), by = "month", length.out = nrow(ibc_total))
+
+
+ibc_total <- pivot_longer(ibc_total,cols = SC:Rio_de_Janeiro, names_to = "estado")
+
+ibc_total$treated <- ifelse(ibc_total$data > "2016-12-01" & ibc_total$estado == "espirito_santo",1,0)
+
+write_csv2(ibc_total,"ibc_uf.csv")
+```
+
+```{r c21}
+ibc_total <- read_csv2("ibc_uf.csv")
+ibc_total$value <- as.numeric(ibc_total$value)
+
+ibc_total <- ibc_total[!is.na(ibc_total$value),]
+```
+
+
+
+```{r c22, results='hide'}
+out_ibc <- gsynth(value ~ treated, data = ibc_total,  index = c("estado","data"), 
+              force = "two-way", CV = F, r = c(1, 4), se = TRUE, 
+              inference = "parametric", nboots = 1000, parallel = F)
+
+```
+
+## Atividade Econômica
+
+Por fim, foi análisada a atividade econômica por meio do indice divulgado pelo Banco Central, o Índice de Atividade Econômica do Banco Central (IBC). Este indicador apresenta divulgação mensal e objetiva mensurar a evolução contemporânea da atividade econômica do país e de algumas unidades da federação (SC, PR, RS, GO, DF, BA, CE, PE, SP, MG, ES e RJ).
+
+```{r c23}
+plot(out_ibc, type = "raw", theme.bw = F, xlim = c(1,216))
+
+```
+
+Acima os dados do índice de atividade econômica dos estados sem tratamento estatístico prévio. A linha laranja representa o ES. A região em cinza escuro representa o período após a entrada em vigor do benefício fiscal objeto deste estudo.
+
+```{r c24}
+plot(out_ibc, type = "counterfactual", raw = "none", xlab = "Periodo", main = "ibc", xlim = c(1,216))
+
+```
+
+No gráfico acima observa-se o resultado da aplicação do modelo de controle sintético. Após o evento, o trajetória do índice e seu contrafactual param de se cruzar e o índice (linha cheia) permanece abaixo de seu controle(linha tracejada).
+
+
+
+## Conclusão
+
+O benefício fiscal parece ter gerado um pequeno aumento do nível de desemprego. Com relação à arrecadação, o benefício fiscal não alterou a arrecadação do estado do ES. Entretanto, a "cópia" fluminense deste benefício traz dois pontos distintos de sua versão original. O primeiro ponto foi trazer benefício novo não previsto no original ao mexer em substituição tributária. O mesmo reduziu alíquotas de substituição tributária. Mas o próprio RJ reconhece que haverá queda de receita, conforme estudo realizado pela Secretaria de Fazenda e publicado em diário oficial de 03/09/2020, página 4 [link](http://www.ioerj.com.br/portal/modules/conteudoonline/mostra_edicao.php?session=VW10VmVGSnFRWGxSVlZWMFRrUktSbEpwTURCTmExazBURlJuZUUxcVZYUk5WRVY1VDBSa1FrNVZXa1pOUkVrMQ==). O impacto seria uma redução da arrecadação de aproximadamente R\$ 300 milhões ao ano. Entretanto, conforme destacado por alguns deputados, os quais foram contra este benefício fiscal (em DOERJ de 03/09/2020), o referido estudo apresentava erros e o valor real do impacto poderia passar de R\$ 900 milhões ao ano.
+
+O RJ está no regime de recuperação fiscal. Com isso, precisará adotar medidas para compensar essa redução da arrecadação. Ou será via aumento de impostos em outros setores ou via redução da prestação de algum serviço. Desta forma, o restante da sociedade pagará o custo.
+
+O presente caso parece ser mais um exemplo de "rent seeking", situação na qual um grupo exerce pressão para obter maior fatia na riqueza existente na sociedade, sem que a ação gere aumento de riqueza. Conforme artigo de [James Bessen](https://hbr.org/2016/05/lobbyists-are-behind-the-rise-in-corporate-profits) as grandes empresas obtem boa parte de seus lucros através de lobby político para obter vantagens legislativas. Segundo [Leandro Narloch](https://www.mises.org.br/Article.aspx?id=2809), para o "rent seeking" funcionar o discurso é fundamental. Neste ponto é inserida uma justificativa que faça o interesse privado parecer interesse público. Quando o assunto é benefício fiscal os argumentos mais utilizados são que vai atrair mais empresas, gerar mais empregos (esse é o mais usado), atrair investimentos, entre outros.
+
+Um outro ponto a destacar é que a Lei capixaba traz alguns benefícios para setores industriais específicos. Apesar disso, o ES sofre uma forte desindustrialização. A versão fluminense não comtempla nenhum setor industrial. Isto leva a crer que o impacto poderá ser maior na indústria fluminense gerando maior desemprego, pois o desemprego gerado em outros setores parece superar os empregos gerado no setor atacadista.
+
+## Códigos (em R) e fonte dos dados utilizados.
+
+```{r ref.label=knitr::all_labels(), echo=TRUE, eval=FALSE}
+
+```
+
+
+
+

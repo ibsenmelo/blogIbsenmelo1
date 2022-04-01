@@ -1,0 +1,1651 @@
+data;estado;value;treated
+2010-01-01;desemprego_es;148,79;0
+2010-01-01;desemprego_rj;136,34;0
+2010-01-01;desemprego_ap; 68,75;0
+2010-01-01;desemprego_am; 73,86;0
+2010-01-01;desemprego_pa; 74,42;0
+2010-01-01;desemprego_ro; 83,50;0
+2010-01-01;desemprego_rr; 72,78;0
+2010-01-01;desemprego_to; 73,91;0
+2010-01-01;desemprego_pr;148,53;0
+2010-01-01;desemprego_ma;112,52;0
+2010-01-01;desemprego_pi;117,30;0
+2010-01-01;desemprego_ce;120,39;0
+2010-01-01;desemprego_sc;152,57;0
+2010-01-01;desemprego_sp;141,16;0
+2010-01-01;desemprego_rs;131,64;0
+2010-02-01;desemprego_es;149,71;0
+2010-02-01;desemprego_rj;136,69;0
+2010-02-01;desemprego_ap; 70,03;0
+2010-02-01;desemprego_am; 74,47;0
+2010-02-01;desemprego_pa; 75,23;0
+2010-02-01;desemprego_ro; 84,62;0
+2010-02-01;desemprego_rr; 73,84;0
+2010-02-01;desemprego_to; 75,15;0
+2010-02-01;desemprego_pr;149,44;0
+2010-02-01;desemprego_ma;113,26;0
+2010-02-01;desemprego_pi;117,77;0
+2010-02-01;desemprego_ce;121,14;0
+2010-02-01;desemprego_sc;154,07;0
+2010-02-01;desemprego_sp;142,22;0
+2010-02-01;desemprego_rs;132,81;0
+2010-03-01;desemprego_es;150,63;0
+2010-03-01;desemprego_rj;137,64;0
+2010-03-01;desemprego_ap; 69,86;0
+2010-03-01;desemprego_am; 75,47;0
+2010-03-01;desemprego_pa; 75,51;0
+2010-03-01;desemprego_ro; 86,23;0
+2010-03-01;desemprego_rr; 74,66;0
+2010-03-01;desemprego_to; 76,07;0
+2010-03-01;desemprego_pr;150,98;0
+2010-03-01;desemprego_ma;114,52;0
+2010-03-01;desemprego_pi;119,61;0
+2010-03-01;desemprego_ce;121,98;0
+2010-03-01;desemprego_sc;154,72;0
+2010-03-01;desemprego_sp;143,85;0
+2010-03-01;desemprego_rs;134,48;0
+2010-04-01;desemprego_es;152,70;0
+2010-04-01;desemprego_rj;138,30;0
+2010-04-01;desemprego_ap; 70,97;0
+2010-04-01;desemprego_am; 76,00;0
+2010-04-01;desemprego_pa; 76,12;0
+2010-04-01;desemprego_ro; 87,78;0
+2010-04-01;desemprego_rr; 75,47;0
+2010-04-01;desemprego_to; 76,88;0
+2010-04-01;desemprego_pr;152,35;0
+2010-04-01;desemprego_ma;116,21;0
+2010-04-01;desemprego_pi;121,11;0
+2010-04-01;desemprego_ce;122,99;0
+2010-04-01;desemprego_sc;155,87;0
+2010-04-01;desemprego_sp;145,42;0
+2010-04-01;desemprego_rs;135,69;0
+2010-05-01;desemprego_es;154,45;0
+2010-05-01;desemprego_rj;139,25;0
+2010-05-01;desemprego_ap; 71,07;0
+2010-05-01;desemprego_am; 76,92;0
+2010-05-01;desemprego_pa; 76,88;0
+2010-05-01;desemprego_ro; 89,24;0
+2010-05-01;desemprego_rr; 75,35;0
+2010-05-01;desemprego_to; 78,11;0
+2010-05-01;desemprego_pr;153,62;0
+2010-05-01;desemprego_ma;116,79;0
+2010-05-01;desemprego_pi;122,25;0
+2010-05-01;desemprego_ce;123,81;0
+2010-05-01;desemprego_sc;156,38;0
+2010-05-01;desemprego_sp;146,71;0
+2010-05-01;desemprego_rs;136,26;0
+2010-06-01;desemprego_es;154,08;0
+2010-06-01;desemprego_rj;139,96;0
+2010-06-01;desemprego_ap; 71,48;0
+2010-06-01;desemprego_am; 77,95;0
+2010-06-01;desemprego_pa; 77,61;0
+2010-06-01;desemprego_ro; 90,27;0
+2010-06-01;desemprego_rr; 75,84;0
+2010-06-01;desemprego_to; 79,23;0
+2010-06-01;desemprego_pr;154,31;0
+2010-06-01;desemprego_ma;118,34;0
+2010-06-01;desemprego_pi;123,79;0
+2010-06-01;desemprego_ce;124,64;0
+2010-06-01;desemprego_sc;156,94;0
+2010-06-01;desemprego_sp;147,64;0
+2010-06-01;desemprego_rs;136,73;0
+2010-07-01;desemprego_es;154,30;0
+2010-07-01;desemprego_rj;140,56;0
+2010-07-01;desemprego_ap; 71,83;0
+2010-07-01;desemprego_am; 78,75;0
+2010-07-01;desemprego_pa; 78,64;0
+2010-07-01;desemprego_ro; 91,16;0
+2010-07-01;desemprego_rr; 75,94;0
+2010-07-01;desemprego_to; 80,08;0
+2010-07-01;desemprego_pr;155,16;0
+2010-07-01;desemprego_ma;119,82;0
+2010-07-01;desemprego_pi;124,62;0
+2010-07-01;desemprego_ce;125,68;0
+2010-07-01;desemprego_sc;157,43;0
+2010-07-01;desemprego_sp;148,46;0
+2010-07-01;desemprego_rs;137,30;0
+2010-08-01;desemprego_es;155,29;0
+2010-08-01;desemprego_rj;141,63;0
+2010-08-01;desemprego_ap; 73,14;0
+2010-08-01;desemprego_am; 80,00;0
+2010-08-01;desemprego_pa; 79,79;0
+2010-08-01;desemprego_ro; 92,28;0
+2010-08-01;desemprego_rr; 77,46;0
+2010-08-01;desemprego_to; 81,64;0
+2010-08-01;desemprego_pr;156,58;0
+2010-08-01;desemprego_ma;120,61;0
+2010-08-01;desemprego_pi;125,87;0
+2010-08-01;desemprego_ce;127,28;0
+2010-08-01;desemprego_sc;158,73;0
+2010-08-01;desemprego_sp;149,65;0
+2010-08-01;desemprego_rs;138,24;0
+2010-09-01;desemprego_es;155,87;0
+2010-09-01;desemprego_rj;142,57;0
+2010-09-01;desemprego_ap; 73,87;0
+2010-09-01;desemprego_am; 81,00;0
+2010-09-01;desemprego_pa; 80,73;0
+2010-09-01;desemprego_ro; 93,44;0
+2010-09-01;desemprego_rr; 79,16;0
+2010-09-01;desemprego_to; 82,07;0
+2010-09-01;desemprego_pr;157,51;0
+2010-09-01;desemprego_ma;121,65;0
+2010-09-01;desemprego_pi;125,91;0
+2010-09-01;desemprego_ce;128,60;0
+2010-09-01;desemprego_sc;159,91;0
+2010-09-01;desemprego_sp;150,35;0
+2010-09-01;desemprego_rs;138,90;0
+2010-10-01;desemprego_es;156,56;0
+2010-10-01;desemprego_rj;143,41;0
+2010-10-01;desemprego_ap; 75,76;0
+2010-10-01;desemprego_am; 81,89;0
+2010-10-01;desemprego_pa; 81,44;0
+2010-10-01;desemprego_ro; 93,70;0
+2010-10-01;desemprego_rr; 80,64;0
+2010-10-01;desemprego_to; 82,21;0
+2010-10-01;desemprego_pr;158,51;0
+2010-10-01;desemprego_ma;122,95;0
+2010-10-01;desemprego_pi;127,54;0
+2010-10-01;desemprego_ce;129,37;0
+2010-10-01;desemprego_sc;161,34;0
+2010-10-01;desemprego_sp;151,07;0
+2010-10-01;desemprego_rs;140,00;0
+2010-11-01;desemprego_es;157,26;0
+2010-11-01;desemprego_rj;144,79;0
+2010-11-01;desemprego_ap; 76,24;0
+2010-11-01;desemprego_am; 82,62;0
+2010-11-01;desemprego_pa; 82,11;0
+2010-11-01;desemprego_ro; 94,17;0
+2010-11-01;desemprego_rr; 81,85;0
+2010-11-01;desemprego_to; 82,08;0
+2010-11-01;desemprego_pr;159,19;0
+2010-11-01;desemprego_ma;123,56;0
+2010-11-01;desemprego_pi;127,79;0
+2010-11-01;desemprego_ce;130,26;0
+2010-11-01;desemprego_sc;162,53;0
+2010-11-01;desemprego_sp;151,13;0
+2010-11-01;desemprego_rs;141,00;0
+2010-12-01;desemprego_es;155,54;0
+2010-12-01;desemprego_rj;144,35;0
+2010-12-01;desemprego_ap; 75,62;0
+2010-12-01;desemprego_am; 80,98;0
+2010-12-01;desemprego_pa; 81,51;0
+2010-12-01;desemprego_ro; 92,95;0
+2010-12-01;desemprego_rr; 81,46;0
+2010-12-01;desemprego_to; 80,72;0
+2010-12-01;desemprego_pr;156,45;0
+2010-12-01;desemprego_ma;121,49;0
+2010-12-01;desemprego_pi;126,81;0
+2010-12-01;desemprego_ce;130,25;0
+2010-12-01;desemprego_sc;162,41;0
+2010-12-01;desemprego_sp;149,04;0
+2010-12-01;desemprego_rs;139,91;0
+2011-01-01;desemprego_es;155,93;0
+2011-01-01;desemprego_rj;144,39;0
+2011-01-01;desemprego_ap; 75,77;0
+2011-01-01;desemprego_am; 82,10;0
+2011-01-01;desemprego_pa; 81,83;0
+2011-01-01;desemprego_ro; 93,35;0
+2011-01-01;desemprego_rr; 82,49;0
+2011-01-01;desemprego_to; 81,15;0
+2011-01-01;desemprego_pr;157,44;0
+2011-01-01;desemprego_ma;121,17;0
+2011-01-01;desemprego_pi;126,89;0
+2011-01-01;desemprego_ce;130,13;0
+2011-01-01;desemprego_sc;163,98;0
+2011-01-01;desemprego_sp;149,74;0
+2011-01-01;desemprego_rs;140,93;0
+2011-02-01;desemprego_es;156,76;0
+2011-02-01;desemprego_rj;145,23;0
+2011-02-01;desemprego_ap; 76,18;0
+2011-02-01;desemprego_am; 83,58;0
+2011-02-01;desemprego_pa; 82,69;0
+2011-02-01;desemprego_ro; 95,12;0
+2011-02-01;desemprego_rr; 83,23;0
+2011-02-01;desemprego_to; 82,17;0
+2011-02-01;desemprego_pr;158,76;0
+2011-02-01;desemprego_ma;121,52;0
+2011-02-01;desemprego_pi;126,98;0
+2011-02-01;desemprego_ce;130,86;0
+2011-02-01;desemprego_sc;165,74;0
+2011-02-01;desemprego_sp;151,11;0
+2011-02-01;desemprego_rs;142,13;0
+2011-03-01;desemprego_es;156,71;0
+2011-03-01;desemprego_rj;145,35;0
+2011-03-01;desemprego_ap; 76,37;0
+2011-03-01;desemprego_am; 84,70;0
+2011-03-01;desemprego_pa; 82,73;0
+2011-03-01;desemprego_ro; 96,05;0
+2011-03-01;desemprego_rr; 83,42;0
+2011-03-01;desemprego_to; 82,19;0
+2011-03-01;desemprego_pr;159,68;0
+2011-03-01;desemprego_ma;120,38;0
+2011-03-01;desemprego_pi;125,89;0
+2011-03-01;desemprego_ce;130,78;0
+2011-03-01;desemprego_sc;165,96;0
+2011-03-01;desemprego_sp;151,89;0
+2011-03-01;desemprego_rs;143,28;0
+2011-04-01;desemprego_es;158,67;0
+2011-04-01;desemprego_rj;146,44;0
+2011-04-01;desemprego_ap; 77,57;0
+2011-04-01;desemprego_am; 85,98;0
+2011-04-01;desemprego_pa; 83,40;0
+2011-04-01;desemprego_ro; 96,68;0
+2011-04-01;desemprego_rr; 83,21;0
+2011-04-01;desemprego_to; 82,83;0
+2011-04-01;desemprego_pr;161,07;0
+2011-04-01;desemprego_ma;120,96;0
+2011-04-01;desemprego_pi;127,17;0
+2011-04-01;desemprego_ce;131,61;0
+2011-04-01;desemprego_sc;166,77;0
+2011-04-01;desemprego_sp;153,43;0
+2011-04-01;desemprego_rs;144,28;0
+2011-05-01;desemprego_es;161,44;0
+2011-05-01;desemprego_rj;147,23;0
+2011-05-01;desemprego_ap; 78,53;0
+2011-05-01;desemprego_am; 86,92;0
+2011-05-01;desemprego_pa; 83,71;0
+2011-05-01;desemprego_ro; 96,98;0
+2011-05-01;desemprego_rr; 82,01;0
+2011-05-01;desemprego_to; 83,39;0
+2011-05-01;desemprego_pr;162,18;0
+2011-05-01;desemprego_ma;120,97;0
+2011-05-01;desemprego_pi;127,77;0
+2011-05-01;desemprego_ce;131,94;0
+2011-05-01;desemprego_sc;167,19;0
+2011-05-01;desemprego_sp;154,55;0
+2011-05-01;desemprego_rs;144,54;0
+2011-06-01;desemprego_es;161,07;0
+2011-06-01;desemprego_rj;148,07;0
+2011-06-01;desemprego_ap; 79,99;0
+2011-06-01;desemprego_am; 88,39;0
+2011-06-01;desemprego_pa; 84,48;0
+2011-06-01;desemprego_ro; 97,68;0
+2011-06-01;desemprego_rr; 82,07;0
+2011-06-01;desemprego_to; 83,82;0
+2011-06-01;desemprego_pr;162,63;0
+2011-06-01;desemprego_ma;122,37;0
+2011-06-01;desemprego_pi;128,65;0
+2011-06-01;desemprego_ce;132,45;0
+2011-06-01;desemprego_sc;167,47;0
+2011-06-01;desemprego_sp;155,34;0
+2011-06-01;desemprego_rs;144,92;0
+2011-07-01;desemprego_es;161,30;0
+2011-07-01;desemprego_rj;148,53;0
+2011-07-01;desemprego_ap; 81,50;0
+2011-07-01;desemprego_am; 89,64;0
+2011-07-01;desemprego_pa; 85,61;0
+2011-07-01;desemprego_ro; 98,50;0
+2011-07-01;desemprego_rr; 82,69;0
+2011-07-01;desemprego_to; 84,42;0
+2011-07-01;desemprego_pr;163,22;0
+2011-07-01;desemprego_ma;123,28;0
+2011-07-01;desemprego_pi;129,11;0
+2011-07-01;desemprego_ce;133,43;0
+2011-07-01;desemprego_sc;167,75;0
+2011-07-01;desemprego_sp;155,97;0
+2011-07-01;desemprego_rs;145,22;0
+2011-08-01;desemprego_es;161,91;0
+2011-08-01;desemprego_rj;149,37;0
+2011-08-01;desemprego_ap; 82,86;0
+2011-08-01;desemprego_am; 90,82;0
+2011-08-01;desemprego_pa; 86,75;0
+2011-08-01;desemprego_ro; 99,07;0
+2011-08-01;desemprego_rr; 84,20;0
+2011-08-01;desemprego_to; 85,36;0
+2011-08-01;desemprego_pr;164,17;0
+2011-08-01;desemprego_ma;124,30;0
+2011-08-01;desemprego_pi;129,63;0
+2011-08-01;desemprego_ce;134,43;0
+2011-08-01;desemprego_sc;168,46;0
+2011-08-01;desemprego_sp;156,66;0
+2011-08-01;desemprego_rs;145,56;0
+2011-09-01;desemprego_es;162,67;0
+2011-09-01;desemprego_rj;150,39;0
+2011-09-01;desemprego_ap; 84,53;0
+2011-09-01;desemprego_am; 91,86;0
+2011-09-01;desemprego_pa; 87,73;0
+2011-09-01;desemprego_ro; 99,44;0
+2011-09-01;desemprego_rr; 86,10;0
+2011-09-01;desemprego_to; 86,35;0
+2011-09-01;desemprego_pr;165,04;0
+2011-09-01;desemprego_ma;125,43;0
+2011-09-01;desemprego_pi;130,29;0
+2011-09-01;desemprego_ce;135,51;0
+2011-09-01;desemprego_sc;169,42;0
+2011-09-01;desemprego_sp;157,13;0
+2011-09-01;desemprego_rs;145,94;0
+2011-10-01;desemprego_es;163,62;0
+2011-10-01;desemprego_rj;150,95;0
+2011-10-01;desemprego_ap; 85,74;0
+2011-10-01;desemprego_am; 92,60;0
+2011-10-01;desemprego_pa; 88,82;0
+2011-10-01;desemprego_ro; 99,82;0
+2011-10-01;desemprego_rr; 86,77;0
+2011-10-01;desemprego_to; 87,09;0
+2011-10-01;desemprego_pr;165,81;0
+2011-10-01;desemprego_ma;126,05;0
+2011-10-01;desemprego_pi;131,06;0
+2011-10-01;desemprego_ce;136,29;0
+2011-10-01;desemprego_sc;170,64;0
+2011-10-01;desemprego_sp;157,43;0
+2011-10-01;desemprego_rs;146,91;0
+2011-11-01;desemprego_es;163,99;0
+2011-11-01;desemprego_rj;152,00;0
+2011-11-01;desemprego_ap; 86,81;0
+2011-11-01;desemprego_am; 93,05;0
+2011-11-01;desemprego_pa; 89,55;0
+2011-11-01;desemprego_ro; 99,32;0
+2011-11-01;desemprego_rr; 88,64;0
+2011-11-01;desemprego_to; 87,44;0
+2011-11-01;desemprego_pr;166,19;0
+2011-11-01;desemprego_ma;126,15;0
+2011-11-01;desemprego_pi;131,36;0
+2011-11-01;desemprego_ce;136,84;0
+2011-11-01;desemprego_sc;171,77;0
+2011-11-01;desemprego_sp;157,05;0
+2011-11-01;desemprego_rs;147,68;0
+2011-12-01;desemprego_es;163,06;0
+2011-12-01;desemprego_rj;151,47;0
+2011-12-01;desemprego_ap; 86,61;0
+2011-12-01;desemprego_am; 91,76;0
+2011-12-01;desemprego_pa; 88,64;0
+2011-12-01;desemprego_ro; 97,90;0
+2011-12-01;desemprego_rr; 88,09;0
+2011-12-01;desemprego_to; 86,26;0
+2011-12-01;desemprego_pr;163,91;0
+2011-12-01;desemprego_ma;125,25;0
+2011-12-01;desemprego_pi;129,31;0
+2011-12-01;desemprego_ce;136,02;0
+2011-12-01;desemprego_sc;169,42;0
+2011-12-01;desemprego_sp;155,20;0
+2011-12-01;desemprego_rs;146,33;0
+2012-01-01;desemprego_es;163,38;0
+2012-01-01;desemprego_rj;151,44;0
+2012-01-01;desemprego_ap; 87,28;0
+2012-01-01;desemprego_am; 91,78;0
+2012-01-01;desemprego_pa; 89,03;0
+2012-01-01;desemprego_ro; 98,46;0
+2012-01-01;desemprego_rr; 87,92;0
+2012-01-01;desemprego_to; 87,28;0
+2012-01-01;desemprego_pr;164,89;0
+2012-01-01;desemprego_ma;124,99;0
+2012-01-01;desemprego_pi;129,43;0
+2012-01-01;desemprego_ce;135,66;0
+2012-01-01;desemprego_sc;170,94;0
+2012-01-01;desemprego_sp;155,55;0
+2012-01-01;desemprego_rs;147,10;0
+2012-02-01;desemprego_es;163,48;0
+2012-02-01;desemprego_rj;152,12;0
+2012-02-01;desemprego_ap; 87,71;0
+2012-02-01;desemprego_am; 91,96;0
+2012-02-01;desemprego_pa; 89,54;0
+2012-02-01;desemprego_ro; 99,04;0
+2012-02-01;desemprego_rr; 88,95;0
+2012-02-01;desemprego_to; 88,54;0
+2012-02-01;desemprego_pr;165,82;0
+2012-02-01;desemprego_ma;124,75;0
+2012-02-01;desemprego_pi;129,54;0
+2012-02-01;desemprego_ce;136,14;0
+2012-02-01;desemprego_sc;172,41;0
+2012-02-01;desemprego_sp;156,27;0
+2012-02-01;desemprego_rs;147,65;0
+2012-03-01;desemprego_es;164,40;0
+2012-03-01;desemprego_rj;152,64;0
+2012-03-01;desemprego_ap; 88,01;0
+2012-03-01;desemprego_am; 91,95;0
+2012-03-01;desemprego_pa; 89,81;0
+2012-03-01;desemprego_ro; 99,41;0
+2012-03-01;desemprego_rr; 90,81;0
+2012-03-01;desemprego_to; 89,50;0
+2012-03-01;desemprego_pr;166,80;0
+2012-03-01;desemprego_ma;124,28;0
+2012-03-01;desemprego_pi;129,78;0
+2012-03-01;desemprego_ce;135,94;0
+2012-03-01;desemprego_sc;173,32;0
+2012-03-01;desemprego_sp;156,88;0
+2012-03-01;desemprego_rs;148,63;0
+2012-04-01;desemprego_es;166,57;0
+2012-04-01;desemprego_rj;153,43;0
+2012-04-01;desemprego_ap; 89,13;0
+2012-04-01;desemprego_am; 92,45;0
+2012-04-01;desemprego_pa; 90,59;0
+2012-04-01;desemprego_ro; 98,09;0
+2012-04-01;desemprego_rr; 90,95;0
+2012-04-01;desemprego_to; 90,43;0
+2012-04-01;desemprego_pr;168,19;0
+2012-04-01;desemprego_ma;124,46;0
+2012-04-01;desemprego_pi;130,27;0
+2012-04-01;desemprego_ce;136,22;0
+2012-04-01;desemprego_sc;174,05;0
+2012-04-01;desemprego_sp;157,98;0
+2012-04-01;desemprego_rs;149,45;0
+2012-05-01;desemprego_es;167,57;0
+2012-05-01;desemprego_rj;153,94;0
+2012-05-01;desemprego_ap; 90,05;0
+2012-05-01;desemprego_am; 92,68;0
+2012-05-01;desemprego_pa; 91,17;0
+2012-05-01;desemprego_ro; 99,28;0
+2012-05-01;desemprego_rr; 90,94;0
+2012-05-01;desemprego_to; 91,43;0
+2012-05-01;desemprego_pr;168,97;0
+2012-05-01;desemprego_ma;124,96;0
+2012-05-01;desemprego_pi;130,27;0
+2012-05-01;desemprego_ce;136,32;0
+2012-05-01;desemprego_sc;174,19;0
+2012-05-01;desemprego_sp;158,66;0
+2012-05-01;desemprego_rs;149,25;0
+2012-06-01;desemprego_es;166,38;0
+2012-06-01;desemprego_rj;154,28;0
+2012-06-01;desemprego_ap; 91,08;0
+2012-06-01;desemprego_am; 93,34;0
+2012-06-01;desemprego_pa; 92,23;0
+2012-06-01;desemprego_ro;100,56;0
+2012-06-01;desemprego_rr; 91,34;0
+2012-06-01;desemprego_to; 91,97;0
+2012-06-01;desemprego_pr;169,31;0
+2012-06-01;desemprego_ma;125,50;0
+2012-06-01;desemprego_pi;131,09;0
+2012-06-01;desemprego_ce;136,83;0
+2012-06-01;desemprego_sc;174,32;0
+2012-06-01;desemprego_sp;158,97;0
+2012-06-01;desemprego_rs;149,21;0
+2012-07-01;desemprego_es;166,96;0
+2012-07-01;desemprego_rj;154,85;0
+2012-07-01;desemprego_ap; 92,68;0
+2012-07-01;desemprego_am; 94,13;0
+2012-07-01;desemprego_pa; 93,43;0
+2012-07-01;desemprego_ro;101,59;0
+2012-07-01;desemprego_rr; 92,17;0
+2012-07-01;desemprego_to; 92,42;0
+2012-07-01;desemprego_pr;169,71;0
+2012-07-01;desemprego_ma;126,49;0
+2012-07-01;desemprego_pi;131,97;0
+2012-07-01;desemprego_ce;137,71;0
+2012-07-01;desemprego_sc;174,62;0
+2012-07-01;desemprego_sp;159,58;0
+2012-07-01;desemprego_rs;149,43;0
+2012-08-01;desemprego_es;166,84;0
+2012-08-01;desemprego_rj;155,25;0
+2012-08-01;desemprego_ap; 94,62;0
+2012-08-01;desemprego_am; 94,82;0
+2012-08-01;desemprego_pa; 93,97;0
+2012-08-01;desemprego_ro;102,28;0
+2012-08-01;desemprego_rr; 93,24;0
+2012-08-01;desemprego_to; 92,99;0
+2012-08-01;desemprego_pr;170,25;0
+2012-08-01;desemprego_ma;126,91;0
+2012-08-01;desemprego_pi;132,52;0
+2012-08-01;desemprego_ce;138,37;0
+2012-08-01;desemprego_sc;175,12;0
+2012-08-01;desemprego_sp;159,96;0
+2012-08-01;desemprego_rs;149,86;0
+2012-09-01;desemprego_es;167,44;0
+2012-09-01;desemprego_rj;155,92;0
+2012-09-01;desemprego_ap; 96,01;0
+2012-09-01;desemprego_am; 95,55;0
+2012-09-01;desemprego_pa; 94,75;0
+2012-09-01;desemprego_ro;102,52;0
+2012-09-01;desemprego_rr; 95,37;0
+2012-09-01;desemprego_to; 92,98;0
+2012-09-01;desemprego_pr;170,88;0
+2012-09-01;desemprego_ma;127,44;0
+2012-09-01;desemprego_pi;132,63;0
+2012-09-01;desemprego_ce;139,53;0
+2012-09-01;desemprego_sc;175,77;0
+2012-09-01;desemprego_sp;160,30;0
+2012-09-01;desemprego_rs;150,34;0
+2012-10-01;desemprego_es;167,98;0
+2012-10-01;desemprego_rj;156,22;0
+2012-10-01;desemprego_ap; 96,12;0
+2012-10-01;desemprego_am; 96,25;0
+2012-10-01;desemprego_pa; 95,12;0
+2012-10-01;desemprego_ro;102,31;0
+2012-10-01;desemprego_rr; 96,68;0
+2012-10-01;desemprego_to; 93,21;0
+2012-10-01;desemprego_pr;171,33;0
+2012-10-01;desemprego_ma;127,45;0
+2012-10-01;desemprego_pi;133,12;0
+2012-10-01;desemprego_ce;140,05;0
+2012-10-01;desemprego_sc;176,60;0
+2012-10-01;desemprego_sp;160,57;0
+2012-10-01;desemprego_rs;150,99;0
+2012-11-01;desemprego_es;168,42;0
+2012-11-01;desemprego_rj;156,78;0
+2012-11-01;desemprego_ap; 96,81;0
+2012-11-01;desemprego_am; 96,21;0
+2012-11-01;desemprego_pa; 95,28;0
+2012-11-01;desemprego_ro;102,09;0
+2012-11-01;desemprego_rr; 97,09;0
+2012-11-01;desemprego_to; 93,03;0
+2012-11-01;desemprego_pr;171,71;0
+2012-11-01;desemprego_ma;127,36;0
+2012-11-01;desemprego_pi;132,69;0
+2012-11-01;desemprego_ce;140,64;0
+2012-11-01;desemprego_sc;177,35;0
+2012-11-01;desemprego_sp;160,66;0
+2012-11-01;desemprego_rs;151,91;0
+2012-12-01;desemprego_es;167,15;0
+2012-12-01;desemprego_rj;155,96;0
+2012-12-01;desemprego_ap; 95,31;0
+2012-12-01;desemprego_am; 94,46;0
+2012-12-01;desemprego_pa; 93,78;0
+2012-12-01;desemprego_ro;100,37;0
+2012-12-01;desemprego_rr; 95,85;0
+2012-12-01;desemprego_to; 91,71;0
+2012-12-01;desemprego_pr;168,83;0
+2012-12-01;desemprego_ma;125,08;0
+2012-12-01;desemprego_pi;131,47;0
+2012-12-01;desemprego_ce;139,95;0
+2012-12-01;desemprego_sc;174,43;0
+2012-12-01;desemprego_sp;158,30;0
+2012-12-01;desemprego_rs;150,29;0
+2013-01-01;desemprego_es;166,85;0
+2013-01-01;desemprego_rj;154,95;0
+2013-01-01;desemprego_ap; 95,49;0
+2013-01-01;desemprego_am; 94,75;0
+2013-01-01;desemprego_pa; 93,67;0
+2013-01-01;desemprego_ro;100,21;0
+2013-01-01;desemprego_rr; 94,26;0
+2013-01-01;desemprego_to; 92,29;0
+2013-01-01;desemprego_pr;169,57;0
+2013-01-01;desemprego_ma;124,21;0
+2013-01-01;desemprego_pi;130,97;0
+2013-01-01;desemprego_ce;139,37;0
+2013-01-01;desemprego_sc;176,19;0
+2013-01-01;desemprego_sp;158,52;0
+2013-01-01;desemprego_rs;151,37;0
+2013-02-01;desemprego_es;166,80;0
+2013-02-01;desemprego_rj;155,30;0
+2013-02-01;desemprego_ap; 96,01;0
+2013-02-01;desemprego_am; 95,09;0
+2013-02-01;desemprego_pa; 94,17;0
+2013-02-01;desemprego_ro;100,49;0
+2013-02-01;desemprego_rr; 95,57;0
+2013-02-01;desemprego_to; 92,41;0
+2013-02-01;desemprego_pr;170,63;0
+2013-02-01;desemprego_ma;123,87;0
+2013-02-01;desemprego_pi;130,80;0
+2013-02-01;desemprego_ce;139,75;0
+2013-02-01;desemprego_sc;177,60;0
+2013-02-01;desemprego_sp;159,13;0
+2013-02-01;desemprego_rs;152,35;0
+2013-03-01;desemprego_es;167,27;0
+2013-03-01;desemprego_rj;155,94;0
+2013-03-01;desemprego_ap; 96,46;0
+2013-03-01;desemprego_am; 95,80;0
+2013-03-01;desemprego_pa; 94,61;0
+2013-03-01;desemprego_ro;100,84;0
+2013-03-01;desemprego_rr; 93,91;0
+2013-03-01;desemprego_to; 93,03;0
+2013-03-01;desemprego_pr;171,79;0
+2013-03-01;desemprego_ma;123,68;0
+2013-03-01;desemprego_pi;131,04;0
+2013-03-01;desemprego_ce;139,63;0
+2013-03-01;desemprego_sc;178,34;0
+2013-03-01;desemprego_sp;159,72;0
+2013-03-01;desemprego_rs;153,98;0
+2013-04-01;desemprego_es;169,11;0
+2013-04-01;desemprego_rj;156,57;0
+2013-04-01;desemprego_ap; 97,67;0
+2013-04-01;desemprego_am; 96,12;0
+2013-04-01;desemprego_pa; 94,88;0
+2013-04-01;desemprego_ro;101,25;0
+2013-04-01;desemprego_rr; 94,59;0
+2013-04-01;desemprego_to; 93,92;0
+2013-04-01;desemprego_pr;173,04;0
+2013-04-01;desemprego_ma;123,48;0
+2013-04-01;desemprego_pi;131,68;0
+2013-04-01;desemprego_ce;140,11;0
+2013-04-01;desemprego_sc;179,29;0
+2013-04-01;desemprego_sp;160,72;0
+2013-04-01;desemprego_rs;154,57;0
+2013-05-01;desemprego_es;169,43;0
+2013-05-01;desemprego_rj;156,75;0
+2013-05-01;desemprego_ap; 98,16;0
+2013-05-01;desemprego_am; 96,44;0
+2013-05-01;desemprego_pa; 95,16;0
+2013-05-01;desemprego_ro;101,08;0
+2013-05-01;desemprego_rr; 94,84;0
+2013-05-01;desemprego_to; 94,24;0
+2013-05-01;desemprego_pr;173,69;0
+2013-05-01;desemprego_ma;122,97;0
+2013-05-01;desemprego_pi;132,77;0
+2013-05-01;desemprego_ce;140,37;0
+2013-05-01;desemprego_sc;179,52;0
+2013-05-01;desemprego_sp;161,01;0
+2013-05-01;desemprego_rs;154,44;0
+2013-06-01;desemprego_es;169,23;0
+2013-06-01;desemprego_rj;157,08;0
+2013-06-01;desemprego_ap; 97,93;0
+2013-06-01;desemprego_am; 97,32;0
+2013-06-01;desemprego_pa; 95,78;0
+2013-06-01;desemprego_ro;101,12;0
+2013-06-01;desemprego_rr; 94,40;0
+2013-06-01;desemprego_to; 94,54;0
+2013-06-01;desemprego_pr;174,04;0
+2013-06-01;desemprego_ma;123,17;0
+2013-06-01;desemprego_pi;133,57;0
+2013-06-01;desemprego_ce;141,73;0
+2013-06-01;desemprego_sc;180,03;0
+2013-06-01;desemprego_sp;161,45;0
+2013-06-01;desemprego_rs;154,63;0
+2013-07-01;desemprego_es;168,80;0
+2013-07-01;desemprego_rj;157,05;0
+2013-07-01;desemprego_ap; 98,60;0
+2013-07-01;desemprego_am; 98,26;0
+2013-07-01;desemprego_pa; 96,46;0
+2013-07-01;desemprego_ro;101,41;0
+2013-07-01;desemprego_rr; 94,55;0
+2013-07-01;desemprego_to; 94,97;0
+2013-07-01;desemprego_pr;174,16;0
+2013-07-01;desemprego_ma;123,60;0
+2013-07-01;desemprego_pi;134,05;0
+2013-07-01;desemprego_ce;142,08;0
+2013-07-01;desemprego_sc;180,16;0
+2013-07-01;desemprego_sp;161,56;0
+2013-07-01;desemprego_rs;154,41;0
+2013-08-01;desemprego_es;169,51;0
+2013-08-01;desemprego_rj;157,48;0
+2013-08-01;desemprego_ap; 99,60;0
+2013-08-01;desemprego_am; 99,06;0
+2013-08-01;desemprego_pa; 97,04;0
+2013-08-01;desemprego_ro;101,83;0
+2013-08-01;desemprego_rr; 95,96;0
+2013-08-01;desemprego_to; 95,74;0
+2013-08-01;desemprego_pr;174,97;0
+2013-08-01;desemprego_ma;124,56;0
+2013-08-01;desemprego_pi;134,53;0
+2013-08-01;desemprego_ce;142,92;0
+2013-08-01;desemprego_sc;180,97;0
+2013-08-01;desemprego_sp;162,06;0
+2013-08-01;desemprego_rs;154,81;0
+2013-09-01;desemprego_es;170,55;0
+2013-09-01;desemprego_rj;158,12;0
+2013-09-01;desemprego_ap;100,55;0
+2013-09-01;desemprego_am;100,01;0
+2013-09-01;desemprego_pa; 98,25;0
+2013-09-01;desemprego_ro;102,00;0
+2013-09-01;desemprego_rr; 97,33;0
+2013-09-01;desemprego_to; 96,36;0
+2013-09-01;desemprego_pr;176,03;0
+2013-09-01;desemprego_ma;125,36;0
+2013-09-01;desemprego_pi;134,72;0
+2013-09-01;desemprego_ce;143,94;0
+2013-09-01;desemprego_sc;182,01;0
+2013-09-01;desemprego_sp;162,63;0
+2013-09-01;desemprego_rs;155,45;0
+2013-10-01;desemprego_es;171,10;0
+2013-10-01;desemprego_rj;158,39;0
+2013-10-01;desemprego_ap;101,73;0
+2013-10-01;desemprego_am;101,23;0
+2013-10-01;desemprego_pa; 98,83;0
+2013-10-01;desemprego_ro;101,93;0
+2013-10-01;desemprego_rr; 96,96;0
+2013-10-01;desemprego_to; 97,14;0
+2013-10-01;desemprego_pr;176,57;0
+2013-10-01;desemprego_ma;126,33;0
+2013-10-01;desemprego_pi;135,99;0
+2013-10-01;desemprego_ce;144,77;0
+2013-10-01;desemprego_sc;183,13;0
+2013-10-01;desemprego_sp;162,79;0
+2013-10-01;desemprego_rs;156,01;0
+2013-11-01;desemprego_es;171,47;0
+2013-11-01;desemprego_rj;159,09;0
+2013-11-01;desemprego_ap;101,88;0
+2013-11-01;desemprego_am;101,75;0
+2013-11-01;desemprego_pa; 99,09;0
+2013-11-01;desemprego_ro;100,63;0
+2013-11-01;desemprego_rr; 96,47;0
+2013-11-01;desemprego_to; 97,11;0
+2013-11-01;desemprego_pr;176,91;0
+2013-11-01;desemprego_ma;126,50;0
+2013-11-01;desemprego_pi;135,61;0
+2013-11-01;desemprego_ce;145,84;0
+2013-11-01;desemprego_sc;184,03;0
+2013-11-01;desemprego_sp;162,74;0
+2013-11-01;desemprego_rs;156,62;0
+2013-12-01;desemprego_es;170,22;0
+2013-12-01;desemprego_rj;158,59;0
+2013-12-01;desemprego_ap;101,07;0
+2013-12-01;desemprego_am;100,29;0
+2013-12-01;desemprego_pa; 97,48;0
+2013-12-01;desemprego_ro; 99,35;0
+2013-12-01;desemprego_rr; 96,26;0
+2013-12-01;desemprego_to; 95,87;0
+2013-12-01;desemprego_pr;174,05;0
+2013-12-01;desemprego_ma;124,92;0
+2013-12-01;desemprego_pi;134,64;0
+2013-12-01;desemprego_ce;145,58;0
+2013-12-01;desemprego_sc;180,83;0
+2013-12-01;desemprego_sp;160,54;0
+2013-12-01;desemprego_rs;155,00;0
+2014-01-01;desemprego_es;170,01;0
+2014-01-01;desemprego_rj;157,71;0
+2014-01-01;desemprego_ap;100,92;0
+2014-01-01;desemprego_am; 99,88;0
+2014-01-01;desemprego_pa; 97,24;0
+2014-01-01;desemprego_ro; 98,91;0
+2014-01-01;desemprego_rr; 96,37;0
+2014-01-01;desemprego_to; 96,46;0
+2014-01-01;desemprego_pr;174,85;0
+2014-01-01;desemprego_ma;123,75;0
+2014-01-01;desemprego_pi;134,58;0
+2014-01-01;desemprego_ce;145,13;0
+2014-01-01;desemprego_sc;182,54;0
+2014-01-01;desemprego_sp;160,64;0
+2014-01-01;desemprego_rs;155,56;0
+2014-02-01;desemprego_es;170,92;0
+2014-02-01;desemprego_rj;158,76;0
+2014-02-01;desemprego_ap;100,29;0
+2014-02-01;desemprego_am;100,01;0
+2014-02-01;desemprego_pa; 97,66;0
+2014-02-01;desemprego_ro; 99,03;0
+2014-02-01;desemprego_rr; 97,15;0
+2014-02-01;desemprego_to; 97,52;0
+2014-02-01;desemprego_pr;176,55;0
+2014-02-01;desemprego_ma;123,52;0
+2014-02-01;desemprego_pi;135,03;0
+2014-02-01;desemprego_ce;146,01;0
+2014-02-01;desemprego_sc;185,13;0
+2014-02-01;desemprego_sp;161,62;0
+2014-02-01;desemprego_rs;157,12;0
+2014-03-01;desemprego_es;170,87;0
+2014-03-01;desemprego_rj;158,59;0
+2014-03-01;desemprego_ap; 98,46;0
+2014-03-01;desemprego_am;100,10;0
+2014-03-01;desemprego_pa; 97,69;0
+2014-03-01;desemprego_ro; 99,19;0
+2014-03-01;desemprego_rr; 97,91;0
+2014-03-01;desemprego_to; 97,81;0
+2014-03-01;desemprego_pr;176,94;0
+2014-03-01;desemprego_ma;122,83;0
+2014-03-01;desemprego_pi;135,51;0
+2014-03-01;desemprego_ce;145,76;0
+2014-03-01;desemprego_sc;185,73;0
+2014-03-01;desemprego_sp;161,86;0
+2014-03-01;desemprego_rs;157,92;0
+2014-04-01;desemprego_es;171,91;0
+2014-04-01;desemprego_rj;159,03;0
+2014-04-01;desemprego_ap; 99,19;0
+2014-04-01;desemprego_am; 99,88;0
+2014-04-01;desemprego_pa; 98,21;0
+2014-04-01;desemprego_ro; 99,31;0
+2014-04-01;desemprego_rr; 99,59;0
+2014-04-01;desemprego_to; 98,23;0
+2014-04-01;desemprego_pr;177,76;0
+2014-04-01;desemprego_ma;122,72;0
+2014-04-01;desemprego_pi;136,93;0
+2014-04-01;desemprego_ce;146,30;0
+2014-04-01;desemprego_sc;186,36;0
+2014-04-01;desemprego_sp;162,41;0
+2014-04-01;desemprego_rs;158,42;0
+2014-05-01;desemprego_es;173,24;0
+2014-05-01;desemprego_rj;159,40;0
+2014-05-01;desemprego_ap; 98,23;0
+2014-05-01;desemprego_am; 99,44;0
+2014-05-01;desemprego_pa; 99,01;0
+2014-05-01;desemprego_ro;100,08;0
+2014-05-01;desemprego_rr; 99,59;0
+2014-05-01;desemprego_to; 99,11;0
+2014-05-01;desemprego_pr;178,22;0
+2014-05-01;desemprego_ma;122,91;0
+2014-05-01;desemprego_pi;137,27;0
+2014-05-01;desemprego_ce;146,70;0
+2014-05-01;desemprego_sc;186,36;0
+2014-05-01;desemprego_sp;162,57;0
+2014-05-01;desemprego_rs;158,19;0
+2014-06-01;desemprego_es;172,35;0
+2014-06-01;desemprego_rj;159,62;0
+2014-06-01;desemprego_ap; 98,26;0
+2014-06-01;desemprego_am; 99,34;0
+2014-06-01;desemprego_pa; 99,94;0
+2014-06-01;desemprego_ro;100,47;0
+2014-06-01;desemprego_rr; 99,73;0
+2014-06-01;desemprego_to; 99,74;0
+2014-06-01;desemprego_pr;178,02;0
+2014-06-01;desemprego_ma;123,21;0
+2014-06-01;desemprego_pi;137,45;0
+2014-06-01;desemprego_ce;146,68;0
+2014-06-01;desemprego_sc;186,35;0
+2014-06-01;desemprego_sp;162,61;0
+2014-06-01;desemprego_rs;157,90;0
+2014-07-01;desemprego_es;172,25;0
+2014-07-01;desemprego_rj;159,33;0
+2014-07-01;desemprego_ap; 99,05;0
+2014-07-01;desemprego_am; 99,79;0
+2014-07-01;desemprego_pa;100,88;0
+2014-07-01;desemprego_ro;100,92;0
+2014-07-01;desemprego_rr;100,14;0
+2014-07-01;desemprego_to;100,92;0
+2014-07-01;desemprego_pr;178,20;0
+2014-07-01;desemprego_ma;124,11;0
+2014-07-01;desemprego_pi;137,92;0
+2014-07-01;desemprego_ce;146,93;0
+2014-07-01;desemprego_sc;186,18;0
+2014-07-01;desemprego_sp;162,71;0
+2014-07-01;desemprego_rs;157,52;0
+2014-08-01;desemprego_es;172,59;0
+2014-08-01;desemprego_rj;159,78;0
+2014-08-01;desemprego_ap; 99,62;0
+2014-08-01;desemprego_am;100,24;0
+2014-08-01;desemprego_pa;101,74;0
+2014-08-01;desemprego_ro;101,21;0
+2014-08-01;desemprego_rr;101,26;0
+2014-08-01;desemprego_to;102,02;0
+2014-08-01;desemprego_pr;178,56;0
+2014-08-01;desemprego_ma;125,13;0
+2014-08-01;desemprego_pi;138,62;0
+2014-08-01;desemprego_ce;148,09;0
+2014-08-01;desemprego_sc;186,80;0
+2014-08-01;desemprego_sp;163,08;0
+2014-08-01;desemprego_rs;157,44;0
+2014-09-01;desemprego_es;173,47;0
+2014-09-01;desemprego_rj;160,31;0
+2014-09-01;desemprego_ap;101,12;0
+2014-09-01;desemprego_am;100,54;0
+2014-09-01;desemprego_pa;102,65;0
+2014-09-01;desemprego_ro;101,02;0
+2014-09-01;desemprego_rr;103,30;0
+2014-09-01;desemprego_to;102,70;0
+2014-09-01;desemprego_pr;179,32;0
+2014-09-01;desemprego_ma;126,06;0
+2014-09-01;desemprego_pi;138,43;0
+2014-09-01;desemprego_ce;149,34;0
+2014-09-01;desemprego_sc;187,45;0
+2014-09-01;desemprego_sp;163,23;0
+2014-09-01;desemprego_rs;157,62;0
+2014-10-01;desemprego_es;173,54;0
+2014-10-01;desemprego_rj;160,31;0
+2014-10-01;desemprego_ap;101,76;0
+2014-10-01;desemprego_am;100,65;0
+2014-10-01;desemprego_pa;102,50;0
+2014-10-01;desemprego_ro;100,62;0
+2014-10-01;desemprego_rr;102,32;0
+2014-10-01;desemprego_to;102,64;0
+2014-10-01;desemprego_pr;179,30;0
+2014-10-01;desemprego_ma;125,33;0
+2014-10-01;desemprego_pi;138,93;0
+2014-10-01;desemprego_ce;150,23;0
+2014-10-01;desemprego_sc;187,91;0
+2014-10-01;desemprego_sp;162,95;0
+2014-10-01;desemprego_rs;157,70;0
+2014-11-01;desemprego_es;173,82;0
+2014-11-01;desemprego_rj;160,88;0
+2014-11-01;desemprego_ap;102,75;0
+2014-11-01;desemprego_am;100,67;0
+2014-11-01;desemprego_pa;102,33;0
+2014-11-01;desemprego_ro;100,28;0
+2014-11-01;desemprego_rr;101,62;0
+2014-11-01;desemprego_to;102,39;0
+2014-11-01;desemprego_pr;179,62;0
+2014-11-01;desemprego_ma;124,30;0
+2014-11-01;desemprego_pi;139,15;0
+2014-11-01;desemprego_ce;151,21;0
+2014-11-01;desemprego_sc;188,70;0
+2014-11-01;desemprego_sp;162,72;0
+2014-11-01;desemprego_rs;158,33;0
+2014-12-01;desemprego_es;171,91;0
+2014-12-01;desemprego_rj;160,01;0
+2014-12-01;desemprego_ap;100,34;0
+2014-12-01;desemprego_am; 99,43;0
+2014-12-01;desemprego_pa;100,15;0
+2014-12-01;desemprego_ro; 98,96;0
+2014-12-01;desemprego_rr;101,01;0
+2014-12-01;desemprego_to;100,48;0
+2014-12-01;desemprego_pr;176,36;0
+2014-12-01;desemprego_ma;122,78;0
+2014-12-01;desemprego_pi;138,12;0
+2014-12-01;desemprego_ce;150,70;0
+2014-12-01;desemprego_sc;185,28;0
+2014-12-01;desemprego_sp;160,39;0
+2014-12-01;desemprego_rs;156,19;0
+2015-01-01;desemprego_es;171,67;0
+2015-01-01;desemprego_rj;158,35;0
+2015-01-01;desemprego_ap; 98,83;0
+2015-01-01;desemprego_am; 99,07;0
+2015-01-01;desemprego_pa; 99,70;0
+2015-01-01;desemprego_ro; 98,41;0
+2015-01-01;desemprego_rr;100,86;0
+2015-01-01;desemprego_to;100,38;0
+2015-01-01;desemprego_pr;176,80;0
+2015-01-01;desemprego_ma;121,76;0
+2015-01-01;desemprego_pi;137,34;0
+2015-01-01;desemprego_ce;149,90;0
+2015-01-01;desemprego_sc;186,65;0
+2015-01-01;desemprego_sp;160,22;0
+2015-01-01;desemprego_rs;156,67;0
+2015-02-01;desemprego_es;171,02;0
+2015-02-01;desemprego_rj;157,89;0
+2015-02-01;desemprego_ap; 97,96;0
+2015-02-01;desemprego_am; 98,72;0
+2015-02-01;desemprego_pa; 99,71;0
+2015-02-01;desemprego_ro; 97,76;0
+2015-02-01;desemprego_rr;100,47;0
+2015-02-01;desemprego_to;101,20;0
+2015-02-01;desemprego_pr;177,37;0
+2015-02-01;desemprego_ma;121,20;0
+2015-02-01;desemprego_pi;137,40;0
+2015-02-01;desemprego_ce;149,64;0
+2015-02-01;desemprego_sc;187,77;0
+2015-02-01;desemprego_sp;160,30;0
+2015-02-01;desemprego_rs;156,86;0
+2015-03-01;desemprego_es;170,69;0
+2015-03-01;desemprego_rj;158,06;0
+2015-03-01;desemprego_ap; 96,97;0
+2015-03-01;desemprego_am; 98,49;0
+2015-03-01;desemprego_pa; 99,51;0
+2015-03-01;desemprego_ro; 97,60;0
+2015-03-01;desemprego_rr;100,49;0
+2015-03-01;desemprego_to;101,37;0
+2015-03-01;desemprego_pr;178,05;0
+2015-03-01;desemprego_ma;121,03;0
+2015-03-01;desemprego_pi;137,87;0
+2015-03-01;desemprego_ce;149,60;0
+2015-03-01;desemprego_sc;188,14;0
+2015-03-01;desemprego_sp;160,46;0
+2015-03-01;desemprego_rs;157,57;0
+2015-04-01;desemprego_es;170,42;0
+2015-04-01;desemprego_rj;157,54;0
+2015-04-01;desemprego_ap; 97,05;0
+2015-04-01;desemprego_am; 97,76;0
+2015-04-01;desemprego_pa; 99,27;0
+2015-04-01;desemprego_ro; 97,32;0
+2015-04-01;desemprego_rr;100,34;0
+2015-04-01;desemprego_to;101,42;0
+2015-04-01;desemprego_pr;177,91;0
+2015-04-01;desemprego_ma;120,85;0
+2015-04-01;desemprego_pi;138,14;0
+2015-04-01;desemprego_ce;149,16;0
+2015-04-01;desemprego_sc;187,75;0
+2015-04-01;desemprego_sp;160,31;0
+2015-04-01;desemprego_rs;157,14;0
+2015-05-01;desemprego_es;169,96;0
+2015-05-01;desemprego_rj;157,09;0
+2015-05-01;desemprego_ap; 95,78;0
+2015-05-01;desemprego_am; 96,90;0
+2015-05-01;desemprego_pa; 99,25;0
+2015-05-01;desemprego_ro; 97,13;0
+2015-05-01;desemprego_rr; 99,92;0
+2015-05-01;desemprego_to;101,37;0
+2015-05-01;desemprego_pr;177,82;0
+2015-05-01;desemprego_ma;120,54;0
+2015-05-01;desemprego_pi;138,17;0
+2015-05-01;desemprego_ce;148,96;0
+2015-05-01;desemprego_sc;187,13;0
+2015-05-01;desemprego_sp;160,02;0
+2015-05-01;desemprego_rs;156,21;0
+2015-06-01;desemprego_es;168,43;0
+2015-06-01;desemprego_rj;156,77;0
+2015-06-01;desemprego_ap; 95,33;0
+2015-06-01;desemprego_am; 96,06;0
+2015-06-01;desemprego_pa; 99,14;0
+2015-06-01;desemprego_ro; 96,57;0
+2015-06-01;desemprego_rr; 99,95;0
+2015-06-01;desemprego_to;101,32;0
+2015-06-01;desemprego_pr;177,23;0
+2015-06-01;desemprego_ma;121,04;0
+2015-06-01;desemprego_pi;137,77;0
+2015-06-01;desemprego_ce;149,10;0
+2015-06-01;desemprego_sc;186,39;0
+2015-06-01;desemprego_sp;159,37;0
+2015-06-01;desemprego_rs;155,40;0
+2015-07-01;desemprego_es;167,22;0
+2015-07-01;desemprego_rj;155,97;0
+2015-07-01;desemprego_ap; 95,01;0
+2015-07-01;desemprego_am; 95,53;0
+2015-07-01;desemprego_pa; 99,54;0
+2015-07-01;desemprego_ro; 96,50;0
+2015-07-01;desemprego_rr;100,00;0
+2015-07-01;desemprego_to;100,99;0
+2015-07-01;desemprego_pr;176,41;0
+2015-07-01;desemprego_ma;121,58;0
+2015-07-01;desemprego_pi;137,56;0
+2015-07-01;desemprego_ce;148,69;0
+2015-07-01;desemprego_sc;185,01;0
+2015-07-01;desemprego_sp;158,89;0
+2015-07-01;desemprego_rs;154,36;0
+2015-08-01;desemprego_es;166,25;0
+2015-08-01;desemprego_rj;155,61;0
+2015-08-01;desemprego_ap; 94,85;0
+2015-08-01;desemprego_am; 95,31;0
+2015-08-01;desemprego_pa; 99,45;0
+2015-08-01;desemprego_ro; 96,34;0
+2015-08-01;desemprego_rr;100,42;0
+2015-08-01;desemprego_to;101,23;0
+2015-08-01;desemprego_pr;175,87;0
+2015-08-01;desemprego_ma;121,81;0
+2015-08-01;desemprego_pi;137,84;0
+2015-08-01;desemprego_ce;148,79;0
+2015-08-01;desemprego_sc;184,37;0
+2015-08-01;desemprego_sp;158,68;0
+2015-08-01;desemprego_rs;153,62;0
+2015-09-01;desemprego_es;165,73;0
+2015-09-01;desemprego_rj;155,30;0
+2015-09-01;desemprego_ap; 94,87;0
+2015-09-01;desemprego_am; 95,12;0
+2015-09-01;desemprego_pa; 99,46;0
+2015-09-01;desemprego_ro; 96,12;0
+2015-09-01;desemprego_rr;101,55;0
+2015-09-01;desemprego_to;101,22;0
+2015-09-01;desemprego_pr;175,30;0
+2015-09-01;desemprego_ma;121,87;0
+2015-09-01;desemprego_pi;137,96;0
+2015-09-01;desemprego_ce;148,61;0
+2015-09-01;desemprego_sc;183,96;0
+2015-09-01;desemprego_sp;158,11;0
+2015-09-01;desemprego_rs;153,14;0
+2015-10-01;desemprego_es;165,00;0
+2015-10-01;desemprego_rj;154,53;0
+2015-10-01;desemprego_ap; 94,96;0
+2015-10-01;desemprego_am; 94,31;0
+2015-10-01;desemprego_pa; 98,33;0
+2015-10-01;desemprego_ro; 95,21;0
+2015-10-01;desemprego_rr;101,20;0
+2015-10-01;desemprego_to;101,33;0
+2015-10-01;desemprego_pr;174,73;0
+2015-10-01;desemprego_ma;121,30;0
+2015-10-01;desemprego_pi;137,69;0
+2015-10-01;desemprego_ce;148,03;0
+2015-10-01;desemprego_sc;183,54;0
+2015-10-01;desemprego_sp;157,48;0
+2015-10-01;desemprego_rs;152,67;0
+2015-11-01;desemprego_es;165,74;0
+2015-11-01;desemprego_rj;154,33;0
+2015-11-01;desemprego_ap; 95,15;0
+2015-11-01;desemprego_am; 93,35;0
+2015-11-01;desemprego_pa; 97,34;0
+2015-11-01;desemprego_ro; 94,10;0
+2015-11-01;desemprego_rr;101,54;0
+2015-11-01;desemprego_to;100,69;0
+2015-11-01;desemprego_pr;174,23;0
+2015-11-01;desemprego_ma;120,48;0
+2015-11-01;desemprego_pi;137,37;0
+2015-11-01;desemprego_ce;147,56;0
+2015-11-01;desemprego_sc;182,94;0
+2015-11-01;desemprego_sp;157,07;0
+2015-11-01;desemprego_rs;152,53;0
+2015-12-01;desemprego_es;163,39;0
+2015-12-01;desemprego_rj;152,69;0
+2015-12-01;desemprego_ap; 93,92;0
+2015-12-01;desemprego_am; 91,34;0
+2015-12-01;desemprego_pa; 95,53;0
+2015-12-01;desemprego_ro; 92,93;0
+2015-12-01;desemprego_rr;100,76;0
+2015-12-01;desemprego_to; 99,33;0
+2015-12-01;desemprego_pr;171,23;0
+2015-12-01;desemprego_ma;119,67;0
+2015-12-01;desemprego_pi;137,05;0
+2015-12-01;desemprego_ce;146,32;0
+2015-12-01;desemprego_sc;179,69;0
+2015-12-01;desemprego_sp;154,40;0
+2015-12-01;desemprego_rs;150,53;0
+2016-01-01;desemprego_es;162,75;0
+2016-01-01;desemprego_rj;151,65;0
+2016-01-01;desemprego_ap; 93,52;0
+2016-01-01;desemprego_am; 90,22;0
+2016-01-01;desemprego_pa; 95,06;0
+2016-01-01;desemprego_ro; 92,44;0
+2016-01-01;desemprego_rr;100,92;0
+2016-01-01;desemprego_to; 99,31;0
+2016-01-01;desemprego_pr;171,30;0
+2016-01-01;desemprego_ma;118,86;0
+2016-01-01;desemprego_pi;136,00;0
+2016-01-01;desemprego_ce;145,32;0
+2016-01-01;desemprego_sc;180,36;0
+2016-01-01;desemprego_sp;154,06;0
+2016-01-01;desemprego_rs;150,96;0
+2016-02-01;desemprego_es;161,84;0
+2016-02-01;desemprego_rj;150,74;0
+2016-02-01;desemprego_ap; 92,15;0
+2016-02-01;desemprego_am; 89,69;0
+2016-02-01;desemprego_pa; 94,94;0
+2016-02-01;desemprego_ro; 92,09;0
+2016-02-01;desemprego_rr;101,09;0
+2016-02-01;desemprego_to; 99,56;0
+2016-02-01;desemprego_pr;171,17;0
+2016-02-01;desemprego_ma;117,40;0
+2016-02-01;desemprego_pi;134,41;0
+2016-02-01;desemprego_ce;144,82;0
+2016-02-01;desemprego_sc;180,80;0
+2016-02-01;desemprego_sp;153,78;0
+2016-02-01;desemprego_rs;151,30;0
+2016-03-01;desemprego_es;161,05;0
+2016-03-01;desemprego_rj;150,18;0
+2016-03-01;desemprego_ap; 91,40;0
+2016-03-01;desemprego_am; 88,87;0
+2016-03-01;desemprego_pa; 94,36;0
+2016-03-01;desemprego_ro; 91,95;0
+2016-03-01;desemprego_rr;101,90;0
+2016-03-01;desemprego_to; 99,55;0
+2016-03-01;desemprego_pr;170,91;0
+2016-03-01;desemprego_ma;116,82;0
+2016-03-01;desemprego_pi;133,88;0
+2016-03-01;desemprego_ce;144,24;0
+2016-03-01;desemprego_sc;180,45;0
+2016-03-01;desemprego_sp;153,37;0
+2016-03-01;desemprego_rs;151,57;0
+2016-04-01;desemprego_es;161,15;0
+2016-04-01;desemprego_rj;149,70;0
+2016-04-01;desemprego_ap; 91,59;0
+2016-04-01;desemprego_am; 88,48;0
+2016-04-01;desemprego_pa; 94,17;0
+2016-04-01;desemprego_ro; 91,80;0
+2016-04-01;desemprego_rr;101,92;0
+2016-04-01;desemprego_to; 99,37;0
+2016-04-01;desemprego_pr;170,83;0
+2016-04-01;desemprego_ma;116,06;0
+2016-04-01;desemprego_pi;133,72;0
+2016-04-01;desemprego_ce;143,96;0
+2016-04-01;desemprego_sc;180,19;0
+2016-04-01;desemprego_sp;153,15;0
+2016-04-01;desemprego_rs;151,15;0
+2016-05-01;desemprego_es;161,42;0
+2016-05-01;desemprego_rj;149,06;0
+2016-05-01;desemprego_ap; 90,32;0
+2016-05-01;desemprego_am; 88,31;0
+2016-05-01;desemprego_pa; 93,82;0
+2016-05-01;desemprego_ro; 91,54;0
+2016-05-01;desemprego_rr;101,95;0
+2016-05-01;desemprego_to; 99,27;0
+2016-05-01;desemprego_pr;170,61;0
+2016-05-01;desemprego_ma;116,02;0
+2016-05-01;desemprego_pi;133,24;0
+2016-05-01;desemprego_ce;143,60;0
+2016-05-01;desemprego_sc;179,74;0
+2016-05-01;desemprego_sp;153,00;0
+2016-05-01;desemprego_rs;150,23;0
+2016-06-01;desemprego_es;160,02;0
+2016-06-01;desemprego_rj;148,42;0
+2016-06-01;desemprego_ap; 90,41;0
+2016-06-01;desemprego_am; 88,08;0
+2016-06-01;desemprego_pa; 93,61;0
+2016-06-01;desemprego_ro; 91,19;0
+2016-06-01;desemprego_rr;101,51;0
+2016-06-01;desemprego_to; 99,14;0
+2016-06-01;desemprego_pr;170,13;0
+2016-06-01;desemprego_ma;116,02;0
+2016-06-01;desemprego_pi;133,28;0
+2016-06-01;desemprego_ce;143,37;0
+2016-06-01;desemprego_sc;178,97;0
+2016-06-01;desemprego_sp;152,62;0
+2016-06-01;desemprego_rs;149,63;0
+2016-07-01;desemprego_es;159,07;0
+2016-07-01;desemprego_rj;147,93;0
+2016-07-01;desemprego_ap; 89,82;0
+2016-07-01;desemprego_am; 88,03;0
+2016-07-01;desemprego_pa; 93,48;0
+2016-07-01;desemprego_ro; 90,76;0
+2016-07-01;desemprego_rr;101,47;0
+2016-07-01;desemprego_to; 98,82;0
+2016-07-01;desemprego_pr;169,76;0
+2016-07-01;desemprego_ma;116,08;0
+2016-07-01;desemprego_pi;132,99;0
+2016-07-01;desemprego_ce;142,80;0
+2016-07-01;desemprego_sc;178,43;0
+2016-07-01;desemprego_sp;152,45;0
+2016-07-01;desemprego_rs;148,92;0
+2016-08-01;desemprego_es;158,02;0
+2016-08-01;desemprego_rj;146,77;0
+2016-08-01;desemprego_ap; 89,83;0
+2016-08-01;desemprego_am; 88,40;0
+2016-08-01;desemprego_pa; 93,15;0
+2016-08-01;desemprego_ro; 90,72;0
+2016-08-01;desemprego_rr;101,78;0
+2016-08-01;desemprego_to; 99,08;0
+2016-08-01;desemprego_pr;169,80;0
+2016-08-01;desemprego_ma;116,63;0
+2016-08-01;desemprego_pi;132,99;0
+2016-08-01;desemprego_ce;142,84;0
+2016-08-01;desemprego_sc;178,71;0
+2016-08-01;desemprego_sp;152,39;0
+2016-08-01;desemprego_rs;148,82;0
+2016-09-01;desemprego_es;157,61;0
+2016-09-01;desemprego_rj;145,81;0
+2016-09-01;desemprego_ap; 89,50;0
+2016-09-01;desemprego_am; 88,60;0
+2016-09-01;desemprego_pa; 93,09;0
+2016-09-01;desemprego_ro; 90,65;0
+2016-09-01;desemprego_rr;102,69;0
+2016-09-01;desemprego_to; 98,92;0
+2016-09-01;desemprego_pr;169,82;0
+2016-09-01;desemprego_ma;116,24;0
+2016-09-01;desemprego_pi;132,59;0
+2016-09-01;desemprego_ce;142,96;0
+2016-09-01;desemprego_sc;179,04;0
+2016-09-01;desemprego_sp;152,11;0
+2016-09-01;desemprego_rs;148,66;0
+2016-10-01;desemprego_es;157,22;0
+2016-10-01;desemprego_rj;144,96;0
+2016-10-01;desemprego_ap; 89,77;0
+2016-10-01;desemprego_am; 88,47;0
+2016-10-01;desemprego_pa; 92,52;0
+2016-10-01;desemprego_ro; 89,98;0
+2016-10-01;desemprego_rr;102,42;0
+2016-10-01;desemprego_to; 98,88;0
+2016-10-01;desemprego_pr;169,80;0
+2016-10-01;desemprego_ma;116,13;0
+2016-10-01;desemprego_pi;131,77;0
+2016-10-01;desemprego_ce;142,70;0
+2016-10-01;desemprego_sc;179,16;0
+2016-10-01;desemprego_sp;151,84;0
+2016-10-01;desemprego_rs;148,79;0
+2016-11-01;desemprego_es;156,73;0
+2016-11-01;desemprego_rj;144,45;0
+2016-11-01;desemprego_ap; 89,52;0
+2016-11-01;desemprego_am; 88,42;0
+2016-11-01;desemprego_pa; 91,94;0
+2016-11-01;desemprego_ro; 89,10;0
+2016-11-01;desemprego_rr;102,23;0
+2016-11-01;desemprego_to; 98,09;0
+2016-11-01;desemprego_pr;169,30;0
+2016-11-01;desemprego_ma;115,69;0
+2016-11-01;desemprego_pi;131,75;0
+2016-11-01;desemprego_ce;142,61;0
+2016-11-01;desemprego_sc;179,06;0
+2016-11-01;desemprego_sp;151,34;0
+2016-11-01;desemprego_rs;148,86;0
+2016-12-01;desemprego_es;155,12;0
+2016-12-01;desemprego_rj;142,82;0
+2016-12-01;desemprego_ap; 88,80;0
+2016-12-01;desemprego_am; 87,47;0
+2016-12-01;desemprego_pa; 90,53;0
+2016-12-01;desemprego_ro; 88,33;0
+2016-12-01;desemprego_rr;101,30;0
+2016-12-01;desemprego_to; 97,10;0
+2016-12-01;desemprego_pr;167,28;0
+2016-12-01;desemprego_ma;114,50;0
+2016-12-01;desemprego_pi;130,86;0
+2016-12-01;desemprego_ce;141,80;0
+2016-12-01;desemprego_sc;176,61;0
+2016-12-01;desemprego_sp;149,34;0
+2016-12-01;desemprego_rs;147,20;0
+2017-01-01;desemprego_es;155,27;1
+2017-01-01;desemprego_rj;141,74;0
+2017-01-01;desemprego_ap; 88,41;0
+2017-01-01;desemprego_am; 87,32;0
+2017-01-01;desemprego_pa; 90,23;0
+2017-01-01;desemprego_ro; 87,68;0
+2017-01-01;desemprego_rr;101,87;0
+2017-01-01;desemprego_to; 96,83;0
+2017-01-01;desemprego_pr;167,61;0
+2017-01-01;desemprego_ma;113,98;0
+2017-01-01;desemprego_pi;130,65;0
+2017-01-01;desemprego_ce;140,89;0
+2017-01-01;desemprego_sc;177,66;0
+2017-01-01;desemprego_sp;149,28;0
+2017-01-01;desemprego_rs;147,67;0
+2017-02-01;desemprego_es;154,82;1
+2017-02-01;desemprego_rj;141,39;0
+2017-02-01;desemprego_ap; 88,47;0
+2017-02-01;desemprego_am; 86,96;0
+2017-02-01;desemprego_pa; 90,06;0
+2017-02-01;desemprego_ro; 88,02;0
+2017-02-01;desemprego_rr;102,45;0
+2017-02-01;desemprego_to; 97,29;0
+2017-02-01;desemprego_pr;168,27;0
+2017-02-01;desemprego_ma;113,52;0
+2017-02-01;desemprego_pi;130,73;0
+2017-02-01;desemprego_ce;140,90;0
+2017-02-01;desemprego_sc;179,05;0
+2017-02-01;desemprego_sp;149,60;0
+2017-02-01;desemprego_rs;148,29;0
+2017-03-01;desemprego_es;154,65;1
+2017-03-01;desemprego_rj;140,66;0
+2017-03-01;desemprego_ap; 88,44;0
+2017-03-01;desemprego_am; 86,64;0
+2017-03-01;desemprego_pa; 89,65;0
+2017-03-01;desemprego_ro; 87,66;0
+2017-03-01;desemprego_rr;102,39;0
+2017-03-01;desemprego_to; 97,60;0
+2017-03-01;desemprego_pr;168,35;0
+2017-03-01;desemprego_ma;112,85;0
+2017-03-01;desemprego_pi;130,30;0
+2017-03-01;desemprego_ce;140,34;0
+2017-03-01;desemprego_sc;178,62;0
+2017-03-01;desemprego_sp;149,48;0
+2017-03-01;desemprego_rs;148,60;0
+2017-04-01;desemprego_es;155,42;1
+2017-04-01;desemprego_rj;140,56;0
+2017-04-01;desemprego_ap; 88,83;0
+2017-04-01;desemprego_am; 86,62;0
+2017-04-01;desemprego_pa; 89,53;0
+2017-04-01;desemprego_ro; 87,77;0
+2017-04-01;desemprego_rr;102,91;0
+2017-04-01;desemprego_to; 97,77;0
+2017-04-01;desemprego_pr;168,79;0
+2017-04-01;desemprego_ma;112,56;0
+2017-04-01;desemprego_pi;130,40;0
+2017-04-01;desemprego_ce;139,50;0
+2017-04-01;desemprego_sc;178,79;0
+2017-04-01;desemprego_sp;149,85;0
+2017-04-01;desemprego_rs;148,42;0
+2017-05-01;desemprego_es;156,31;1
+2017-05-01;desemprego_rj;140,34;0
+2017-05-01;desemprego_ap; 89,04;0
+2017-05-01;desemprego_am; 86,53;0
+2017-05-01;desemprego_pa; 89,32;0
+2017-05-01;desemprego_ro; 87,87;0
+2017-05-01;desemprego_rr;103,80;0
+2017-05-01;desemprego_to; 98,11;0
+2017-05-01;desemprego_pr;168,95;0
+2017-05-01;desemprego_ma;112,76;0
+2017-05-01;desemprego_pi;130,78;0
+2017-05-01;desemprego_ce;139,15;0
+2017-05-01;desemprego_sc;178,73;0
+2017-05-01;desemprego_sp;150,06;0
+2017-05-01;desemprego_rs;147,71;0
+2017-06-01;desemprego_es;156,00;1
+2017-06-01;desemprego_rj;140,10;0
+2017-06-01;desemprego_ap; 89,33;0
+2017-06-01;desemprego_am; 86,41;0
+2017-06-01;desemprego_pa; 89,46;0
+2017-06-01;desemprego_ro; 88,07;0
+2017-06-01;desemprego_rr;103,88;0
+2017-06-01;desemprego_to; 98,52;0
+2017-06-01;desemprego_pr;168,71;0
+2017-06-01;desemprego_ma;113,13;0
+2017-06-01;desemprego_pi;131,10;0
+2017-06-01;desemprego_ce;139,16;0
+2017-06-01;desemprego_sc;178,59;0
+2017-06-01;desemprego_sp;150,07;0
+2017-06-01;desemprego_rs;147,16;0
+2017-07-01;desemprego_es;155,61;1
+2017-07-01;desemprego_rj;139,72;0
+2017-07-01;desemprego_ap; 89,74;0
+2017-07-01;desemprego_am; 87,09;0
+2017-07-01;desemprego_pa; 89,75;0
+2017-07-01;desemprego_ro; 88,56;0
+2017-07-01;desemprego_rr;104,00;0
+2017-07-01;desemprego_to; 98,60;0
+2017-07-01;desemprego_pr;168,78;0
+2017-07-01;desemprego_ma;113,50;0
+2017-07-01;desemprego_pi;131,21;0
+2017-07-01;desemprego_ce;139,38;0
+2017-07-01;desemprego_sc;178,60;0
+2017-07-01;desemprego_sp;150,34;0
+2017-07-01;desemprego_rs;147,09;0
+2017-08-01;desemprego_es;154,98;1
+2017-08-01;desemprego_rj;139,58;0
+2017-08-01;desemprego_ap; 89,80;0
+2017-08-01;desemprego_am; 87,39;0
+2017-08-01;desemprego_pa; 89,78;0
+2017-08-01;desemprego_ro; 89,01;0
+2017-08-01;desemprego_rr;105,12;0
+2017-08-01;desemprego_to; 99,51;0
+2017-08-01;desemprego_pr;168,86;0
+2017-08-01;desemprego_ma;113,92;0
+2017-08-01;desemprego_pi;131,25;0
+2017-08-01;desemprego_ce;139,98;0
+2017-08-01;desemprego_sc;179,17;0
+2017-08-01;desemprego_sp;150,56;0
+2017-08-01;desemprego_rs;147,01;0
+2017-09-01;desemprego_es;155,06;1
+2017-09-01;desemprego_rj;139,38;0
+2017-09-01;desemprego_ap; 89,79;0
+2017-09-01;desemprego_am; 87,48;0
+2017-09-01;desemprego_pa; 90,30;0
+2017-09-01;desemprego_ro; 89,41;0
+2017-09-01;desemprego_rr;106,47;0
+2017-09-01;desemprego_to; 99,92;0
+2017-09-01;desemprego_pr;169,04;0
+2017-09-01;desemprego_ma;113,92;0
+2017-09-01;desemprego_pi;131,59;0
+2017-09-01;desemprego_ce;140,25;0
+2017-09-01;desemprego_sc;179,91;0
+2017-09-01;desemprego_sp;150,56;0
+2017-09-01;desemprego_rs;146,99;0
+2017-10-01;desemprego_es;155,40;1
+2017-10-01;desemprego_rj;139,23;0
+2017-10-01;desemprego_ap; 89,75;0
+2017-10-01;desemprego_am; 88,15;0
+2017-10-01;desemprego_pa; 90,46;0
+2017-10-01;desemprego_ro; 89,66;0
+2017-10-01;desemprego_rr;106,49;0
+2017-10-01;desemprego_to;100,58;0
+2017-10-01;desemprego_pr;169,36;0
+2017-10-01;desemprego_ma;114,15;0
+2017-10-01;desemprego_pi;132,31;0
+2017-10-01;desemprego_ce;140,60;0
+2017-10-01;desemprego_sc;180,72;0
+2017-10-01;desemprego_sp;150,69;0
+2017-10-01;desemprego_rs;147,46;0
+2017-11-01;desemprego_es;155,45;1
+2017-11-01;desemprego_rj;139,36;0
+2017-11-01;desemprego_ap; 89,61;0
+2017-11-01;desemprego_am; 88,39;0
+2017-11-01;desemprego_pa; 90,60;0
+2017-11-01;desemprego_ro; 89,42;0
+2017-11-01;desemprego_rr;106,79;0
+2017-11-01;desemprego_to;100,62;0
+2017-11-01;desemprego_pr;169,45;0
+2017-11-01;desemprego_ma;114,08;0
+2017-11-01;desemprego_pi;132,09;0
+2017-11-01;desemprego_ce;140,95;0
+2017-11-01;desemprego_sc;181,18;0
+2017-11-01;desemprego_sp;150,46;0
+2017-11-01;desemprego_rs;147,98;0
+2017-12-01;desemprego_es;154,16;1
+2017-12-01;desemprego_rj;138,72;0
+2017-12-01;desemprego_ap; 89,04;0
+2017-12-01;desemprego_am; 87,94;0
+2017-12-01;desemprego_pa; 89,73;0
+2017-12-01;desemprego_ro; 89,10;0
+2017-12-01;desemprego_rr;106,32;0
+2017-12-01;desemprego_to; 99,76;0
+2017-12-01;desemprego_pr;167,79;0
+2017-12-01;desemprego_ma;113,84;0
+2017-12-01;desemprego_pi;131,72;0
+2017-12-01;desemprego_ce;140,40;0
+2017-12-01;desemprego_sc;179,11;0
+2017-12-01;desemprego_sp;149,01;0
+2017-12-01;desemprego_rs;146,50;0
+2018-01-01;desemprego_es;154,85;1
+2018-01-01;desemprego_rj;138,31;0
+2018-01-01;desemprego_ap; 89,50;0
+2018-01-01;desemprego_am; 87,66;0
+2018-01-01;desemprego_pa; 89,31;0
+2018-01-01;desemprego_ro; 88,98;0
+2018-01-01;desemprego_rr;106,42;0
+2018-01-01;desemprego_to; 99,86;0
+2018-01-01;desemprego_pr;168,57;0
+2018-01-01;desemprego_ma;113,69;0
+2018-01-01;desemprego_pi;131,28;0
+2018-01-01;desemprego_ce;140,61;0
+2018-01-01;desemprego_sc;180,72;0
+2018-01-01;desemprego_sp;149,26;0
+2018-01-01;desemprego_rs;147,54;0
+2018-02-01;desemprego_es;155,24;1
+2018-02-01;desemprego_rj;138,20;0
+2018-02-01;desemprego_ap; 89,91;0
+2018-02-01;desemprego_am; 87,79;0
+2018-02-01;desemprego_pa; 89,39;0
+2018-02-01;desemprego_ro; 89,25;0
+2018-02-01;desemprego_rr;105,87;0
+2018-02-01;desemprego_to; 99,99;0
+2018-02-01;desemprego_pr;169,08;0
+2018-02-01;desemprego_ma;113,60;0
+2018-02-01;desemprego_pi;131,36;0
+2018-02-01;desemprego_ce;140,57;0
+2018-02-01;desemprego_sc;182,24;0
+2018-02-01;desemprego_sp;149,63;0
+2018-02-01;desemprego_rs;148,29;0
+2018-03-01;desemprego_es;155,33;1
+2018-03-01;desemprego_rj;138,22;0
+2018-03-01;desemprego_ap; 89,71;0
+2018-03-01;desemprego_am; 87,89;0
+2018-03-01;desemprego_pa; 89,30;0
+2018-03-01;desemprego_ro; 89,43;0
+2018-03-01;desemprego_rr;106,04;0
+2018-03-01;desemprego_to;100,32;0
+2018-03-01;desemprego_pr;169,51;0
+2018-03-01;desemprego_ma;113,85;0
+2018-03-01;desemprego_pi;131,80;0
+2018-03-01;desemprego_ce;140,60;0
+2018-03-01;desemprego_sc;182,42;0
+2018-03-01;desemprego_sp;150,02;0
+2018-03-01;desemprego_rs;149,04;0
+2018-04-01;desemprego_es;155,94;1
+2018-04-01;desemprego_rj;138,52;0
+2018-04-01;desemprego_ap; 90,73;0
+2018-04-01;desemprego_am; 87,90;0
+2018-04-01;desemprego_pa; 89,74;0
+2018-04-01;desemprego_ro; 89,70;0
+2018-04-01;desemprego_rr;106,03;0
+2018-04-01;desemprego_to;100,69;0
+2018-04-01;desemprego_pr;170,12;0
+2018-04-01;desemprego_ma;114,18;0
+2018-04-01;desemprego_pi;132,06;0
+2018-04-01;desemprego_ce;140,98;0
+2018-04-01;desemprego_sc;182,92;0
+2018-04-01;desemprego_sp;150,58;0
+2018-04-01;desemprego_rs;148,96;0
+2018-05-01;desemprego_es;157,03;1
+2018-05-01;desemprego_rj;138,40;0
+2018-05-01;desemprego_ap; 90,84;0
+2018-05-01;desemprego_am; 87,72;0
+2018-05-01;desemprego_pa; 90,00;0
+2018-05-01;desemprego_ro; 89,91;0
+2018-05-01;desemprego_rr;104,94;0
+2018-05-01;desemprego_to;101,31;0
+2018-05-01;desemprego_pr;170,24;0
+2018-05-01;desemprego_ma;114,70;0
+2018-05-01;desemprego_pi;132,42;0
+2018-05-01;desemprego_ce;141,23;0
+2018-05-01;desemprego_sc;182,50;0
+2018-05-01;desemprego_sp;150,70;0
+2018-05-01;desemprego_rs;148,34;0
+2018-06-01;desemprego_es;156,68;1
+2018-06-01;desemprego_rj;138,28;0
+2018-06-01;desemprego_ap; 90,33;0
+2018-06-01;desemprego_am; 87,92;0
+2018-06-01;desemprego_pa; 90,15;0
+2018-06-01;desemprego_ro; 89,80;0
+2018-06-01;desemprego_rr;104,36;0
+2018-06-01;desemprego_to;101,60;0
+2018-06-01;desemprego_pr;169,80;0
+2018-06-01;desemprego_ma;115,40;0
+2018-06-01;desemprego_pi;132,64;0
+2018-06-01;desemprego_ce;141,32;0
+2018-06-01;desemprego_sc;182,12;0
+2018-06-01;desemprego_sp;150,64;0
+2018-06-01;desemprego_rs;147,95;0
+2018-07-01;desemprego_es;156,54;1
+2018-07-01;desemprego_rj;138,24;0
+2018-07-01;desemprego_ap; 91,15;0
+2018-07-01;desemprego_am; 88,40;0
+2018-07-01;desemprego_pa; 90,69;0
+2018-07-01;desemprego_ro; 90,13;0
+2018-07-01;desemprego_rr;103,95;0
+2018-07-01;desemprego_to;101,80;0
+2018-07-01;desemprego_pr;169,97;0
+2018-07-01;desemprego_ma;115,86;0
+2018-07-01;desemprego_pi;132,73;0
+2018-07-01;desemprego_ce;141,41;0
+2018-07-01;desemprego_sc;182,10;0
+2018-07-01;desemprego_sp;150,83;0
+2018-07-01;desemprego_rs;147,80;0
+2018-08-01;desemprego_es;156,47;1
+2018-08-01;desemprego_rj;138,37;0
+2018-08-01;desemprego_ap; 92,21;0
+2018-08-01;desemprego_am; 88,79;0
+2018-08-01;desemprego_pa; 91,58;0
+2018-08-01;desemprego_ro; 90,31;0
+2018-08-01;desemprego_rr;104,06;0
+2018-08-01;desemprego_to;102,15;0
+2018-08-01;desemprego_pr;170,66;0
+2018-08-01;desemprego_ma;115,85;0
+2018-08-01;desemprego_pi;132,92;0
+2018-08-01;desemprego_ce;141,99;0
+2018-08-01;desemprego_sc;182,47;0
+2018-08-01;desemprego_sp;151,27;0
+2018-08-01;desemprego_rs;147,57;0
+2018-09-01;desemprego_es;157,20;1
+2018-09-01;desemprego_rj;138,70;0
+2018-09-01;desemprego_ap; 92,96;0
+2018-09-01;desemprego_am; 89,27;0
+2018-09-01;desemprego_pa; 92,38;0
+2018-09-01;desemprego_ro; 90,63;0
+2018-09-01;desemprego_rr;105,49;0
+2018-09-01;desemprego_to;102,64;0
+2018-09-01;desemprego_pr;171,29;0
+2018-09-01;desemprego_ma;116,27;0
+2018-09-01;desemprego_pi;133,48;0
+2018-09-01;desemprego_ce;142,79;0
+2018-09-01;desemprego_sc;183,14;0
+2018-09-01;desemprego_sp;151,56;0
+2018-09-01;desemprego_rs;147,64;0
+2018-10-01;desemprego_es;157,41;1
+2018-10-01;desemprego_rj;138,66;0
+2018-10-01;desemprego_ap; 93,02;0
+2018-10-01;desemprego_am; 89,62;0
+2018-10-01;desemprego_pa; 92,48;0
+2018-10-01;desemprego_ro; 90,52;0
+2018-10-01;desemprego_rr;105,75;0
+2018-10-01;desemprego_to;103,04;0
+2018-10-01;desemprego_pr;171,75;0
+2018-10-01;desemprego_ma;116,44;0
+2018-10-01;desemprego_pi;133,60;0
+2018-10-01;desemprego_ce;143,25;0
+2018-10-01;desemprego_sc;184,05;0
+2018-10-01;desemprego_sp;151,72;0
+2018-10-01;desemprego_rs;148,19;0
+2018-11-01;desemprego_es;158,11;1
+2018-11-01;desemprego_rj;139,23;0
+2018-11-01;desemprego_ap; 92,86;0
+2018-11-01;desemprego_am; 89,69;0
+2018-11-01;desemprego_pa; 92,61;0
+2018-11-01;desemprego_ro; 90,27;0
+2018-11-01;desemprego_rr;106,23;0
+2018-11-01;desemprego_to;102,42;0
+2018-11-01;desemprego_pr;172,11;0
+2018-11-01;desemprego_ma;116,37;0
+2018-11-01;desemprego_pi;133,47;0
+2018-11-01;desemprego_ce;143,53;0
+2018-11-01;desemprego_sc;184,90;0
+2018-11-01;desemprego_sp;151,95;0
+2018-11-01;desemprego_rs;148,78;0
+2018-12-01;desemprego_es;157,23;1
+2018-12-01;desemprego_rj;138,64;0
+2018-12-01;desemprego_ap; 92,04;0
+2018-12-01;desemprego_am; 89,29;0
+2018-12-01;desemprego_pa; 91,66;0
+2018-12-01;desemprego_ro; 90,02;0
+2018-12-01;desemprego_rr;105,41;0
+2018-12-01;desemprego_to;101,47;0
+2018-12-01;desemprego_pr;170,33;0
+2018-12-01;desemprego_ma;115,63;0
+2018-12-01;desemprego_pi;133,09;0
+2018-12-01;desemprego_ce;142,84;0
+2018-12-01;desemprego_sc;182,80;0
+2018-12-01;desemprego_sp;150,57;0
+2018-12-01;desemprego_rs;147,48;0
+2019-01-01;desemprego_es;157,79;1
+2019-01-01;desemprego_rj;138,13;0
+2019-01-01;desemprego_ap; 91,35;0
+2019-01-01;desemprego_am; 89,16;0
+2019-01-01;desemprego_pa; 91,30;0
+2019-01-01;desemprego_ro; 89,69;0
+2019-01-01;desemprego_rr;104,97;0
+2019-01-01;desemprego_to;101,26;0
+2019-01-01;desemprego_pr;170,93;0
+2019-01-01;desemprego_ma;115,30;0
+2019-01-01;desemprego_pi;132,23;0
+2019-01-01;desemprego_ce;142,23;0
+2019-01-01;desemprego_sc;184,67;0
+2019-01-01;desemprego_sp;150,75;0
+2019-01-01;desemprego_rs;148,21;0
+2019-02-01;desemprego_es;158,57;1
+2019-02-01;desemprego_rj;138,64;0
+2019-02-01;desemprego_ap; 91,46;0
+2019-02-01;desemprego_am; 89,48;0
+2019-02-01;desemprego_pa; 91,38;0
+2019-02-01;desemprego_ro; 89,90;0
+2019-02-01;desemprego_rr;104,46;0
+2019-02-01;desemprego_to;101,89;0
+2019-02-01;desemprego_pr;172,15;0
+2019-02-01;desemprego_ma;115,06;0
+2019-02-01;desemprego_pi;132,04;0
+2019-02-01;desemprego_ce;142,46;0
+2019-02-01;desemprego_sc;187,03;0
+2019-02-01;desemprego_sp;151,53;0
+2019-02-01;desemprego_rs;149,53;0
