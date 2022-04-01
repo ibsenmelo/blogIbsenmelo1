@@ -26,9 +26,9 @@ Em 31 de julho de 2020 foi publicada no Diário oficial do Estado do Rio de Jane
 
 Conforme veiculado na mídia^[https://www.usinagem-brasil.com.br/15344-rj-cria-tributacao-diferenciada-para-setor-metalmecanico/], o novo regime de tributação aumentaria a competitividade da indústria metalmecânica do Rio de Janeiro em relação a outros estados, como Minas Gerais. A expectativa é a de que os benefícios tributários e fiscais atraiam empresas para instalação no estado.
 
-Visando avaliar tal questão realizamos abaixo uma comparação entre os estados do Rio de Janeiro e Minas Gerais(um dos citados "concorrentes" do estado do Rio de Janeiro). Durante o período de janeiro de 2010 a dezembro de 2020 foram observadas as produções industriais destes dois estados, tendo como pano de fundo a produção dos demais estados. Foram utilizados os CNAEs previstos na Resolução SEFAZ 184, a qual regulamenta a Lei 8.960. Ou seja, foram levantados dados de produção industrial de três setores: Metalurgia; Fabricação de produtos de Metal, exceto máquinas e equipamentos; e Fabricação de máquinas e equipamentos.
+Visando avaliar tal questão realizamos abaixo uma comparação entre os estados do Rio de Janeiro e Minas Gerais(um dos citados "concorrentes" do estado do Rio de Janeiro). Durante o período de janeiro de 2010 a dezembro de 2020 foram observadas as produções industriais destes dois estados, tendo como pano de fundo a produção dos demais estados. Foram utilizados os CNAEs previstos na Resolução SEFAZ 184/20, a qual regulamenta a Lei 8.960/20. Ou seja, foram levantados dados de produção industrial de três setores: Metalurgia; Fabricação de produtos de Metal, exceto máquinas e equipamentos; e Fabricação de máquinas e equipamentos.
 
-O dado utilizado foi o indice de produção industrial (Pesquisa Industrial Mensal - Produção Física) disponibilizado pelo IBGE.
+A variável utilizada foi o indice de produção industrial (Pesquisa Industrial Mensal - Produção Física) disponibilizado pelo IBGE.
 
 
 
@@ -175,16 +175,28 @@ ggplot(municipios_rj) +
   geom_sf_label(aes(label = total), label.padding = unit(.5, "mm"))+
   ggrepel::geom_text_repel(data = cidades, aes(x = longitude, y = latitude, label = cidade),
                            fontface = "bold", nudge_x = c(.5, .5,.5),
-                           nudge_y = c(-0.2, -0.3,-0.3)) 
+                           nudge_y = c(-0.2, -0.3,-0.3)) +
+  ggtitle("Número de empresas do setor Metalmecânico por município")+ 
+  theme(legend.position = c(.1, .8))
 ```
 
 Conforme também veiculado na mídia^[https://www.firjan.com.br/noticias/regime-diferenciado-de-tributacao-para-as-industrias-do-setor-metalmecanico-e-regulamentado-pelo-governo-do-estado-do-rio-1.htm], atualmente as empresas que não fazem parte da zona incentivada pela Lei 6.979/15 estão sob o regime de 20% de alíquota final de ICMS. Mas, com a regulamentação da nova lei e adesão pelos contribuintes, os estabelecimentos contarão com uma tributação mais simples, de 3% na saída.
 
-A lei 6.979/15 apresenta o mesmo benefício fiscal da Lei 8.960, com a diferença que atende a um leque maior de indústrias (não apenas o metalmecânico) e se retringe aos municípios marcados no mapa acima^[https://www.mprj.mp.br/home/-/detalhe-noticia/visualizar/97903].
+A lei 6.979/15 apresenta o mesmo benefício fiscal da Lei 8.960/20, com a diferença que atende a um leque maior de indústrias (não apenas o metalmecânico) e se retringe aos municípios marcados no mapa acima^[https://www.mprj.mp.br/home/-/detalhe-noticia/visualizar/97903].
 
-O município de Macaé, por exemplo, possui 23 empresas, mesmo não possuindo benefício fiscal. Enquanto que dois municípios vizinhos (Carapebus e Conceição de Macabu) são áreas abrangidas pelo benefício da Lei 6.979 mas possuem apenas 4 empresas ao todo. Mesmo sendo municípios limítrofes, a grande maioria das empresas preferiu continuar em Macaé (observe, agora, a cidade do Rio de Janeiro com 143 empresas!). Isso demonstra que para a maioria das empresas benefícios fiscais não são o fator principal para realizar investimentos. Se uma "simples" mudança para um município vizinho é uma hipótese descartada para a maioria das empresas, imagine uma mudança de estado, que é o principal argumento dos benefícios fiscais. Portanto, o benefício fiscal seria apenas um tipo de "prêmio" para estas empresas, as quais não precisam realizar nenhuma contrapartida.
+O município de Macaé, por exemplo, possui 23 empresas, mesmo não possuindo benefício fiscal. Enquanto que dois municípios vizinhos (Carapebus e Conceição de Macabu) são áreas abrangidas pelo benefício da Lei 6.979/15 mas possuem apenas 4 empresas ao todo. Mesmo sendo municípios limítrofes, a grande maioria das empresas preferiu continuar em Macaé (observe, agora, a cidade do Rio de Janeiro com 143 empresas!).
 
-Mas, caso tenham empresas que precisem do benefício fiscal, com a Lei 8.960, estas empresas poderão se deslocar dos municípios mais pobres (beneficiados pela Lei 6.979) para os municípios com melhores infraestruturas, mais próximas dos mercados, etc. Com isso, os municípios mais pobres correm o risco de se tornarem ainda mais pobres e perderem quantidade relevante de postos de trabalho. Afinal, a perda de uma única grande empresa, para um município pequeno, pode ter forte impacto em sua economia.
+## Conclusão
+
+Isso demonstra que para a maioria das empresas benefícios fiscais não são o fator principal para realizar investimentos. Se uma "simples" mudança para um município vizinho é uma hipótese descartada para a maioria das empresas, imagine uma mudança de estado, que é o principal argumento dos benefícios fiscais. Portanto, o benefício fiscal seria apenas um tipo de "prêmio" para estas empresas, as quais não precisam realizar nenhuma contrapartida.
+
+Mas, caso haja empresas que necessitem do benefício fiscal, com a Lei 8.960/20, estas empresas poderão se deslocar dos municípios mais pobres (beneficiados pela Lei 6.979/15) para os municípios com melhores infraestruturas, mais próximas dos mercados, etc. Com isso, os municípios mais pobres correm o risco de se tornarem ainda mais pobres e perderem quantidade relevante de postos de trabalho. Afinal, a perda de uma única grande empresa, para um município pequeno, pode ter forte impacto em sua economia.
+
+Por fim, cabe destacar que a Lei 8.960/20 redefine o conceito de industrialização, permitindo que o corte da chapa seja considerado industrialização. Isso pode fazer com que uma etapa muito simples de industrialização, que gera poucos empregos, reduza a arrecadação de uma cadeia mais complexa (fabricação da chapa em si). Ou seja, uma grande empresa (como a CSN, por exemplo) nada vai pagar de ICMS porque alguma empresa vai alegar que irá cortar a bobina e depois mandar cortada ao meio para SP, que ficará com todos os empregos da indústrialzação de fato (transformar a chapa em algo mais complexo).
+
+
+
+
 
 
 ## Códigos (em R) e fonte dos dados utilizados.
