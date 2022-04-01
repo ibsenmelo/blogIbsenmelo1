@@ -20,7 +20,7 @@ library(kableExtra)
 library(tidyverse)
 ```
 
-## Introdução
+
 
 Em 31 de julho de 2020 foi publicada no Diário oficial do Estado do Rio de Janeiro a Lei 8.960, a qual institui tratamento tributário diferenciado para o setor metalmecânico. Tal benefício prevê a aplicação de uma alíquota de 3% sobre o faturamento. Entretanto, a justiça suspendeu a eficácia da referida Lei, por possível inconstituicionalidade^[https://valor.globo.com/brasil/noticia/2021/03/04/liminar-suspende-beneficio-para-setor-metalmecanico-no-rj-estado-recorre.ghtml]. 
 
@@ -34,7 +34,7 @@ O dado utilizado foi o indice de produção industrial (Pesquisa Industrial Mens
 
 
 
-```{r c1, cache = TRUE}
+```{r c1,cache = TRUE}
 
 get_industria_ibge <- function(codigo=129333) {
   
@@ -115,7 +115,7 @@ Quanto à produção industrial relacionada a fabricação de máquinas e equipa
 
 
 
-```{r c5,cache = TRUE}
+```{r c5, include=FALSE}
 municipios_rj <- geobr::read_municipality("RJ", 2020)
 
 # dados extraidos de 'basedosdados.org'
@@ -164,7 +164,7 @@ O caso do setor metalmecânico ilustra bem a questão de que os benefícios fisc
 
 Abaixo, gráfico com o número de empresas  ativas (conforme dados disponibilizados pela Receita Federal) de grande porte (excluindo micro e pequenas empresas dado que possuem regime próprio de tributação - o simples nacional) do setor metalmecânico, por município.
 
-```{r c6,cache = TRUE}
+```{r c6}
 cidades <- data.frame(cidade= c("Rio de Janeiro","Macaé","Carapebus"),
                        longitude = c(-43.452, -41.854,-41.654), latitude = c(-23.003,
                                                                          -22.314,-22.234))
