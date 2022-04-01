@@ -158,7 +158,7 @@ municipios_rj <- municipios_rj %>%
 
 Um dos argumentos utilizados para criar benefícios fiscais é que vai atrair empresas para instalação no estado. Mas (já citado em outro post) conforme Prado, 1999^[Prado, Sergio. Guerra fiscal e políticas de desenvolvimento estadual no Brasil. Economia e Sociedade, Campinas, (13): 1-40, dez. 1999.]:
 
->>>"É profundamente discutível a validade do argumento usual na retórica dos operadores da guerra fiscal, de que os incentivos “criam investimento” que, de outro modo, não ocorreriam. Nossa suposição aqui é que, na maioria quase absoluta dos casos relevantes, a decisão de investimento é dada previamente, decorre de estratégias empresariais de longo prazo, e tenderia a ser realizada mesmo na ausência de incentivos."
+>"É profundamente discutível a validade do argumento usual na retórica dos operadores da guerra fiscal, de que os incentivos “criam investimento” que, de outro modo, não ocorreriam. Nossa suposição aqui é que, na maioria quase absoluta dos casos relevantes, a decisão de investimento é dada previamente, decorre de estratégias empresariais de longo prazo, e tenderia a ser realizada mesmo na ausência de incentivos."
 
 O caso do setor metalmecânico ilustra bem a questão de que os benefícios fiscais exercem pouca ou nenhuma influência para as decisões de longo prazo das empresas.
 
